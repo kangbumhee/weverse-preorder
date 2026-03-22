@@ -85,14 +85,25 @@ async function apiCall(accessToken, apiPath, artistId) {
   return resp.json();
 }
 
+/** API가 배열 또는 { artists|data|categories|... } 래핑을 쓰는 경우 통일 */
+function asArray(payload) {
+  if (!payload) return [];
+  if (Array.isArray(payload)) return payload;
+  const keys = ["artists", "data", "categories", "salesCategories", "items", "results"];
+  for (const k of keys) {
+    if (Array.isArray(payload[k])) return payload[k];
+  }
+  console.log("  asArray: 알 수 없는 응답 형식:", typeof payload, Object.keys(payload || {}).slice(0, 8));
+  return [];
+}
+
 async function getArtists(accessToken) {
-  // 아티스트 목록은 설정 API에서 가져옴
-  const data = await apiCall(
-    accessToken,
-    "/api/v1/settings/artists",
-    2
-  );
-  return data || [];
+  const data = await apiCall(accessToken, "/api/v1/settings/artists", 2);
+  const list = asArray(data);
+  if (list.length === 0 && data && typeof data === "object" && !Array.isArray(data)) {
+    console.log("  아티스트 API 응답 키:", Object.keys(data).join(", "));
+  }
+  return list;
 }
 
 async function getCategories(accessToken, artistId) {
@@ -101,7 +112,7 @@ async function getCategories(accessToken, artistId) {
     "/api/wvs/display/api/v1/artist-home/categories?displayPlatform=WEB",
     artistId
   );
-  return data || [];
+  return asArray(data);
 }
 
 async function getCategoryProducts(accessToken, artistId, categoryId) {
