@@ -5,7 +5,7 @@ import { useWeverseData } from "@/components/WeverseDataProvider";
 import {
   getMaxOrderQuantity,
   getUpdatedAtString,
-  sortByDeliveryDate,
+  sortByDDayProximity,
 } from "@/lib/data";
 import ProductCard from "@/components/ProductCard";
 import RangeSlider from "@/components/RangeSlider";
@@ -60,7 +60,7 @@ export default function LimitedPage() {
     else if (statusFilter === "soldout")
       list = list.filter((item) => item.product.status === "SOLD_OUT");
 
-    return sortByDeliveryDate(list.map((item) => item.product));
+    return sortByDDayProximity(list.map((item) => item.product));
   }, [limitedProducts, rangeMin, rangeMax, statusFilter]);
 
   const rangeCount = useMemo(() => {

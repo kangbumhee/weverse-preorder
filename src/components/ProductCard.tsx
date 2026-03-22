@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Product } from "@/lib/types";
 import {
@@ -29,8 +30,57 @@ export default function ProductCard({ product }: { product: Product }) {
   const emblems = Array.isArray(p.emblems) ? p.emblems : [];
   const price = p.price;
 
-  const startLabel = po?.deliveryStartAt ? formatKoLongDate(po.deliveryStartAt) : "";
-  const endLabel = po?.deliveryEndAt ? formatKoMonthDay(po.deliveryEndAt) : "";
+  const releaseOrShipLabel =
+    p.category === "Album" || p.category === "DVD/Media" ? "발매" : "출고";
+
+  const [dDay, setDDay] = useState("");
+  const [dDayColor, setDDayColor] = useState("");
+
+  useEffect(() => {
+    const deliveryStart = p.detail?.preOrder?.deliveryStartAt;
+    const deliveryEnd = p.detail?.preOrder?.deliveryEndAt;
+    if (!deliveryStart) {
+      setDDay("");
+      setDDayColor("");
+      return;
+    }
+
+    const isAlbum = p.category === "Album" || p.category === "DVD/Media";
+
+    const now = new Date();
+    const start = new Date(deliveryStart);
+    const end = deliveryEnd ? new Date(deliveryEnd) : null;
+
+    const diffMs = start.getTime() - now.getTime();
+    const diffDays = Math.ceil(diffMs / (1000 * 60 * 60 * 24));
+
+    if (end && now > end) {
+      setDDay(isAlbum ? "발매완료" : "출고완료");
+      setDDayColor("bg-gray-500");
+    } else if (now >= start && end && now <= end) {
+      setDDay(isAlbum ? "발매됨" : "출고중");
+      setDDayColor("bg-blue-500");
+    } else if (diffDays === 0) {
+      setDDay("D-Day");
+      setDDayColor("bg-red-500");
+    } else if (diffDays > 0) {
+      setDDay(`D-${diffDays}`);
+      if (diffDays <= 7) setDDayColor("bg-red-500");
+      else if (diffDays <= 30) setDDayColor("bg-orange-500");
+      else setDDayColor("bg-green-600");
+    } else {
+      setDDay(isAlbum ? "발매됨" : "출고완료");
+      setDDayColor("bg-gray-500");
+    }
+  }, [
+    p.saleId,
+    p.category,
+    p.detail?.preOrder?.deliveryStartAt,
+    p.detail?.preOrder?.deliveryEndAt,
+  ]);
+
+  const startText = po?.deliveryStartAt ? formatKoLongDate(po.deliveryStartAt) : "";
+  const endText = po?.deliveryEndAt ? formatKoMonthDay(po.deliveryEndAt) : "";
   const saleStartLabel = detail?.saleStartAt ? formatKoLongDate(detail.saleStartAt) : "";
 
   return (
@@ -66,22 +116,45 @@ export default function ProductCard({ product }: { product: Product }) {
             </span>
           </div>
         )}
-        <div className="absolute top-2 left-2 flex flex-wrap gap-1 z-20">
+
+        <div className="absolute top-2 left-2 z-20 flex flex-col gap-1 items-start">
           {p.status === "SALE" && (
-            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-green-500 text-white">
+            <span className="px-2 py-0.5 text-[10px] font-bold rounded shadow bg-green-500 text-white">
               구매가능
             </span>
           )}
           {p.status === "SOLD_OUT" && (
-            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-gray-500 text-white">
+            <span className="px-2 py-0.5 text-[10px] font-bold rounded shadow bg-gray-500 text-white">
               품절
             </span>
           )}
           {p.status === "TO_BE_SOLD" && (
-            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-violet-500 text-white">
+            <span className="px-2 py-0.5 text-[10px] font-bold rounded shadow bg-violet-500 text-white">
               판매예정
             </span>
           )}
+        </div>
+
+        {dDay && (
+          <span
+            className={`absolute top-2 right-2 z-20 px-2 py-1 text-[10px] font-bold rounded-full text-white shadow ${dDayColor}`}
+            suppressHydrationWarning
+          >
+            {dDay}
+          </span>
+        )}
+
+        {maxQty !== null && (
+          <div className="absolute bottom-2 left-2 z-20">
+            <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${limitColor}`}>
+              최대 {maxQty}개
+            </span>
+          </div>
+        )}
+      </div>
+
+      <div className="p-3">
+        <div className="flex flex-wrap gap-1 mb-1">
           <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-purple-600 text-white">
             예약판매
           </span>
@@ -101,16 +174,7 @@ export default function ProductCard({ product }: { product: Product }) {
             </span>
           )}
         </div>
-        {maxQty !== null && (
-          <div className="absolute top-2 right-2 z-20">
-            <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${limitColor}`}>
-              최대 {maxQty}개
-            </span>
-          </div>
-        )}
-      </div>
 
-      <div className="p-3">
         <p className="text-[10px] text-purple-600 font-semibold uppercase tracking-wide">
           {p.artistShortName} · {p.category}
         </p>
@@ -146,10 +210,10 @@ export default function ProductCard({ product }: { product: Product }) {
               </span>
             </div>
           )}
-          {startLabel && (
-            <p className="text-xs text-gray-500">
-              출고예정: {startLabel}
-              {endLabel && <> ~ {endLabel}</>}
+          {po?.deliveryStartAt && startText && (
+            <p className="text-xs text-gray-500 mt-1">
+              {releaseOrShipLabel}예정: {startText}
+              {endText && <> ~ {endText}</>}
             </p>
           )}
           {saleStartLabel && (

@@ -99,10 +99,25 @@ export function getLimitColor(qty: number | null): string {
   return "bg-gray-400 text-white";
 }
 
-export function sortByDeliveryDate(products: Product[]): Product[] {
+/** 출고/발매 기준일(임박순). 날짜 없음은 맨 뒤 */
+export function preorderStartMs(p: Product): number | null {
+  const s = p.detail?.preOrder?.deliveryStartAt || p.deliveryDate;
+  if (!s) return null;
+  const t = new Date(s).getTime();
+  return Number.isNaN(t) ? null : t;
+}
+
+export function sortByDDayProximity(products: Product[]): Product[] {
   return [...products].sort((a, b) => {
-    const dateA = a.detail?.preOrder?.deliveryStartAt || a.deliveryDate || "9999";
-    const dateB = b.detail?.preOrder?.deliveryStartAt || b.deliveryDate || "9999";
-    return new Date(dateA).getTime() - new Date(dateB).getTime();
+    const ta = preorderStartMs(a);
+    const tb = preorderStartMs(b);
+    if (ta === null && tb === null) return 0;
+    if (ta === null) return 1;
+    if (tb === null) return -1;
+    return ta - tb;
   });
+}
+
+export function sortByDeliveryDate(products: Product[]): Product[] {
+  return sortByDDayProximity(products);
 }

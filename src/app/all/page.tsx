@@ -5,7 +5,7 @@ import { useWeverseData } from "@/components/WeverseDataProvider";
 import {
   getMaxOrderQuantity,
   getUpdatedAtString,
-  sortByDeliveryDate,
+  sortByDDayProximity,
 } from "@/lib/data";
 import ProductCard from "@/components/ProductCard";
 
@@ -37,7 +37,7 @@ export default function AllPage() {
       );
     }
 
-    if (sort === "dday") list = sortByDeliveryDate(list);
+    if (sort === "dday") list = sortByDDayProximity(list);
     else if (sort === "price_low") list.sort((a, b) => a.price.salePrice - b.price.salePrice);
     else if (sort === "price_high") list.sort((a, b) => b.price.salePrice - a.price.salePrice);
     else if (sort === "limit_low")
