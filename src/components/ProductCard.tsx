@@ -4,19 +4,11 @@ import Image from "next/image";
 import { Product } from "@/lib/types";
 import {
   formatPrice,
+  formatKoLongDate,
+  formatKoMonthDay,
   getMaxOrderQuantity,
   getLimitColor,
 } from "@/lib/data";
-
-const koDateOptsFull: Intl.DateTimeFormatOptions = {
-  year: "numeric",
-  month: "long",
-  day: "numeric",
-};
-const koDateOptsMd: Intl.DateTimeFormatOptions = {
-  month: "long",
-  day: "numeric",
-};
 
 export default function ProductCard({ product }: { product: Product }) {
   const p = product;
@@ -28,10 +20,18 @@ export default function ProductCard({ product }: { product: Product }) {
   const ship = detail?.shipping?.shippingCountry;
   const sp = ship?.shippingPolicy;
   const opts = detail?.option?.options || [];
-  const earnedCash = detail?.earnedCash || 0;
+  const earnedCash = detail?.earnedCash ?? 0;
   const maxQty = getMaxOrderQuantity(p);
   const limitColor = getLimitColor(maxQty);
   const productUrl = `https://shop.weverse.io/shop/KRW/artists/${p.artistId}/sales/${p.saleId}`;
+
+  const icons = Array.isArray(p.icons) ? p.icons : [];
+  const emblems = Array.isArray(p.emblems) ? p.emblems : [];
+  const price = p.price;
+
+  const startLabel = po?.deliveryStartAt ? formatKoLongDate(po.deliveryStartAt) : "";
+  const endLabel = po?.deliveryEndAt ? formatKoMonthDay(po.deliveryEndAt) : "";
+  const saleStartLabel = detail?.saleStartAt ? formatKoLongDate(detail.saleStartAt) : "";
 
   return (
     <a
@@ -85,17 +85,17 @@ export default function ProductCard({ product }: { product: Product }) {
           <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-purple-600 text-white">
             예약판매
           </span>
-          {p.icons.includes("ONLY") && (
+          {icons.includes("ONLY") && (
             <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500 text-white">
               단독
             </span>
           )}
-          {p.icons.includes("BENEFIT") && (
+          {icons.includes("BENEFIT") && (
             <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500 text-white">
               특전
             </span>
           )}
-          {p.emblems.includes("FAN_EVENT") && (
+          {emblems.includes("FAN_EVENT") && (
             <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-pink-500 text-white">
               팬이벤트
             </span>
@@ -117,15 +117,17 @@ export default function ProductCard({ product }: { product: Product }) {
         <h3 className="text-sm font-bold text-gray-900 mt-1 line-clamp-2 min-h-[40px]">
           {p.name}
         </h3>
-        <div className="flex items-baseline gap-1.5 mt-2">
-          {p.price.discountPercent > 0 && (
-            <span className="text-xs font-bold text-red-500">{p.price.discountPercent}%</span>
-          )}
-          <span className="text-base font-extrabold">{formatPrice(p.price.salePrice)}원</span>
-          {p.price.discountPercent > 0 && (
-            <span className="text-xs text-gray-400 line-through">{formatPrice(p.price.originalPrice)}원</span>
-          )}
-        </div>
+        {price && (
+          <div className="flex items-baseline gap-1.5 mt-2">
+            {price.discountPercent > 0 && (
+              <span className="text-xs font-bold text-red-500">{price.discountPercent}%</span>
+            )}
+            <span className="text-base font-extrabold">{formatPrice(price.salePrice)}원</span>
+            {price.discountPercent > 0 && (
+              <span className="text-xs text-gray-400 line-through">{formatPrice(price.originalPrice)}원</span>
+            )}
+          </div>
+        )}
         <div className="mt-3 space-y-1.5">
           {gol && (
             <div className="flex gap-2 text-[11px]">
@@ -144,22 +146,15 @@ export default function ProductCard({ product }: { product: Product }) {
               </span>
             </div>
           )}
-          {po?.deliveryStartAt && (
-            <p className="text-xs text-gray-500" suppressHydrationWarning>
-              출고예정:{" "}
-              {new Date(po.deliveryStartAt).toLocaleDateString("ko-KR", koDateOptsFull)}
-              {po.deliveryEndAt && (
-                <>
-                  {" "}
-                  ~ {new Date(po.deliveryEndAt).toLocaleDateString("ko-KR", koDateOptsMd)}
-                </>
-              )}
+          {startLabel && (
+            <p className="text-xs text-gray-500">
+              출고예정: {startLabel}
+              {endLabel && <> ~ {endLabel}</>}
             </p>
           )}
-          {detail?.saleStartAt && (
-            <p className="text-xs text-gray-400 mt-0.5" suppressHydrationWarning>
-              판매시작:{" "}
-              {new Date(detail.saleStartAt).toLocaleDateString("ko-KR", koDateOptsFull)}
+          {saleStartLabel && (
+            <p className="text-xs text-gray-400 mt-0.5">
+              판매시작: {saleStartLabel}
             </p>
           )}
           <div className="flex flex-wrap gap-1.5 text-[10px] text-gray-500">

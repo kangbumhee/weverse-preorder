@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useMemo, useCallback } from "react";
+import { useWeverseData } from "@/components/WeverseDataProvider";
 import {
-  getProducts,
   getMaxOrderQuantity,
   getUpdatedAtString,
   sortByDeliveryDate,
@@ -19,11 +19,10 @@ const PRESETS = [
 ];
 
 export default function LimitedPage() {
-  const allProducts = getProducts();
-  const updatedAt = getUpdatedAtString();
+  const { products: allProducts, updatedAt } = useWeverseData();
+  const updatedAtLabel = getUpdatedAtString(updatedAt);
   const [statusFilter, setStatusFilter] = useState("all");
 
-  // 구매제한 범위
   const limitedProducts = useMemo(() => {
     return allProducts
       .map((p) => ({ product: p, maxQty: getMaxOrderQuantity(p) }))
@@ -64,7 +63,6 @@ export default function LimitedPage() {
     return sortByDeliveryDate(list.map((item) => item.product));
   }, [limitedProducts, rangeMin, rangeMax, statusFilter]);
 
-  // 범위별 개수 계산
   const rangeCount = useMemo(() => {
     let count = 0;
     limitedProducts.forEach((item) => {
@@ -77,10 +75,9 @@ export default function LimitedPage() {
     <div className="max-w-7xl mx-auto px-4 py-6">
       <h1 className="text-xl font-extrabold text-gray-900">구매제한 상품</h1>
       <p className="text-sm text-gray-500">
-        {updatedAt} · 구매제한 있는 상품 {limitedProducts.length}개 · 출고일 임박순
+        {updatedAtLabel} · 구매제한 있는 상품 {limitedProducts.length}개 · 출고일 임박순
       </p>
 
-      {/* 슬라이더 */}
       <div className="bg-white rounded-xl shadow-sm p-4 mt-4">
         <p className="text-xs font-semibold text-gray-700 mb-1">
           구매제한 수량 범위: <span className="text-purple-600">{rangeMin}개 ~ {rangeMax}개</span>
@@ -94,13 +91,13 @@ export default function LimitedPage() {
           onChange={handleRangeChange}
         />
 
-        {/* 프리셋 버튼 */}
         <div className="flex flex-wrap gap-2 mt-2">
           {PRESETS.map((preset) => {
             const isActive = rangeMin === preset.min && rangeMax === Math.min(preset.max, maxLimit);
             return (
               <button
                 key={preset.label}
+                type="button"
                 onClick={() => applyPreset(preset)}
                 className={`px-3 py-1 rounded-full text-[11px] font-semibold border transition-all ${
                   isActive
@@ -115,7 +112,6 @@ export default function LimitedPage() {
         </div>
       </div>
 
-      {/* 상태 필터 */}
       <div className="flex gap-2 mt-4 items-center">
         <select
           value={statusFilter}

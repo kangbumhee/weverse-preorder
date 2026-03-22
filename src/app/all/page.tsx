@@ -1,9 +1,8 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useWeverseData } from "@/components/WeverseDataProvider";
 import {
-  getProducts,
-  getArtists,
   getMaxOrderQuantity,
   getUpdatedAtString,
   sortByDeliveryDate,
@@ -11,9 +10,8 @@ import {
 import ProductCard from "@/components/ProductCard";
 
 export default function AllPage() {
-  const products = getProducts();
-  const artists = getArtists();
-  const updatedAt = getUpdatedAtString();
+  const { artists, products, updatedAt } = useWeverseData();
+  const updatedAtLabel = getUpdatedAtString(updatedAt);
   const [statusFilter, setStatusFilter] = useState("all");
   const [artistFilter, setArtistFilter] = useState("all");
   const [sort, setSort] = useState("dday");
@@ -55,7 +53,7 @@ export default function AllPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-6">
       <h1 className="text-xl font-extrabold text-gray-900">전체 예약판매 상품</h1>
-      <p className="text-sm text-gray-500">{updatedAt} · 총 {products.length}개</p>
+      <p className="text-sm text-gray-500">{updatedAtLabel} · 총 {products.length}개</p>
 
       <div className="flex flex-wrap gap-2 mt-4 items-center">
         <input

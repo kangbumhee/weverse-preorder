@@ -1,42 +1,62 @@
-import { WeverseData, Product, Artist } from "./types";
+import { Product } from "./types";
 
-let cachedData: WeverseData | null = null;
+const SEOUL: Intl.DateTimeFormatOptions = { timeZone: "Asia/Seoul" };
 
-function loadData(): WeverseData {
-  if (cachedData) return cachedData;
+/** 서버/클라이언트 동일 출력 (hydration 안전) */
+export function getUpdatedAtString(updatedAt: string): string {
   try {
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    const raw = require("../../public/data/weverse-preorder-data.json");
-    cachedData = raw as WeverseData;
-    return cachedData;
+    const d = new Date(updatedAt);
+    if (Number.isNaN(d.getTime())) return "";
+    const parts = new Intl.DateTimeFormat("ko-KR", {
+      ...SEOUL,
+      year: "numeric",
+      month: "numeric",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    }).formatToParts(d);
+    const y = parts.find((p) => p.type === "year")?.value;
+    const m = parts.find((p) => p.type === "month")?.value;
+    const day = parts.find((p) => p.type === "day")?.value;
+    const hour = parts.find((p) => p.type === "hour")?.value;
+    const minute = parts.find((p) => p.type === "minute")?.value;
+    if (!y || !m || !day || hour === undefined || minute === undefined) return "";
+    return `${y}.${m}.${day} ${hour.padStart(2, "0")}:${minute.padStart(2, "0")} 기준`;
   } catch {
-    cachedData = { updatedAt: new Date().toISOString(), artists: [], products: [] };
-    return cachedData;
+    return "";
   }
 }
 
-export function getAllData(): WeverseData {
-  return loadData();
+export function formatKoLongDate(dateStr: string | null | undefined): string {
+  if (!dateStr) return "";
+  try {
+    const d = new Date(dateStr);
+    if (Number.isNaN(d.getTime())) return "";
+    return new Intl.DateTimeFormat("ko-KR", {
+      ...SEOUL,
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    }).format(d);
+  } catch {
+    return "";
+  }
 }
 
-export function getArtists(): Artist[] {
-  return loadData().artists;
-}
-
-export function getProducts(): Product[] {
-  return loadData().products;
-}
-
-export function getArtistById(artistId: number): Artist | undefined {
-  return loadData().artists.find((a) => a.artistId === artistId);
-}
-
-export function getProductsByArtist(artistId: number): Product[] {
-  return loadData().products.filter((p) => p.artistId === artistId);
-}
-
-export function getProductCountByArtist(artistId: number): number {
-  return loadData().products.filter((p) => p.artistId === artistId).length;
+export function formatKoMonthDay(dateStr: string | null | undefined): string {
+  if (!dateStr) return "";
+  try {
+    const d = new Date(dateStr);
+    if (Number.isNaN(d.getTime())) return "";
+    return new Intl.DateTimeFormat("ko-KR", {
+      ...SEOUL,
+      month: "long",
+      day: "numeric",
+    }).format(d);
+  } catch {
+    return "";
+  }
 }
 
 export function getMaxOrderQuantity(product: Product): number | null {
@@ -64,7 +84,6 @@ export function formatDate(d: string | null | undefined): string {
   return `${dt.getFullYear()}.${dt.getMonth() + 1}.${dt.getDate()} (${wk[dt.getDay()]})`;
 }
 
-// D-day는 클라이언트에서만 계산 (hydration 불일치 방지)
 export function getDdayNumber(d: string | null | undefined): number | null {
   if (!d) return null;
   const now = new Date();
@@ -80,12 +99,6 @@ export function getLimitColor(qty: number | null): string {
   return "bg-gray-400 text-white";
 }
 
-export function getUpdatedAtString(): string {
-  const dt = new Date(loadData().updatedAt);
-  return `${dt.getFullYear()}.${dt.getMonth() + 1}.${dt.getDate()} ${dt.getHours()}:${String(dt.getMinutes()).padStart(2, "0")} 기준`;
-}
-
-// 출고일 기준 정렬 (D-day 임박순)
 export function sortByDeliveryDate(products: Product[]): Product[] {
   return [...products].sort((a, b) => {
     const dateA = a.detail?.preOrder?.deliveryStartAt || a.deliveryDate || "9999";

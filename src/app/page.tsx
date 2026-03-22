@@ -3,12 +3,12 @@
 import { useState, useMemo } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { getArtists, getProductCountByArtist, getUpdatedAtString, getProducts } from "@/lib/data";
+import { useWeverseData } from "@/components/WeverseDataProvider";
+import { getUpdatedAtString } from "@/lib/data";
 
 export default function HomePage() {
-  const artists = getArtists();
-  const products = getProducts();
-  const updatedAt = getUpdatedAtString();
+  const { artists, products, updatedAt } = useWeverseData();
+  const updatedAtLabel = getUpdatedAtString(updatedAt);
   const [search, setSearch] = useState("");
 
   const filtered = useMemo(() => {
@@ -24,18 +24,17 @@ export default function HomePage() {
   const totalProducts = products.length;
   const saleProducts = products.filter((p) => p.status === "SALE").length;
   const soldOutProducts = products.filter((p) => p.status === "SOLD_OUT").length;
-  const artistsWithProducts = artists.filter(
-    (a) => getProductCountByArtist(a.artistId) > 0
+  const artistsWithProducts = artists.filter((a) =>
+    products.some((p) => p.artistId === a.artistId)
   ).length;
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-6">
-      {/* 통계 */}
       <div className="text-center mb-6">
         <h1 className="text-2xl font-extrabold text-gray-900">
           Weverse Shop 예약판매
         </h1>
-        <p className="text-sm text-gray-500 mt-1">{updatedAt}</p>
+        <p className="text-sm text-gray-500 mt-1">{updatedAtLabel}</p>
         <div className="flex justify-center gap-4 mt-4">
           <div className="bg-purple-50 rounded-xl px-5 py-3 text-center">
             <p className="text-2xl font-extrabold text-purple-600">{totalProducts}</p>
@@ -56,7 +55,6 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* 검색 */}
       <div className="mb-6">
         <input
           type="text"
@@ -67,10 +65,9 @@ export default function HomePage() {
         />
       </div>
 
-      {/* 아티스트 그리드 */}
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 gap-3">
         {filtered.map((artist) => {
-          const count = getProductCountByArtist(artist.artistId);
+          const count = products.filter((p) => p.artistId === artist.artistId).length;
           return (
             <Link
               key={artist.artistId}

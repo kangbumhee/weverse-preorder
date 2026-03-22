@@ -3,19 +3,26 @@
 import { useParams } from "next/navigation";
 import { useState, useMemo } from "react";
 import Image from "next/image";
-import {
-  getArtistById,
-  getProductsByArtist,
-  getMaxOrderQuantity,
-} from "@/lib/data";
+import { useWeverseData } from "@/components/WeverseDataProvider";
+import { getMaxOrderQuantity } from "@/lib/data";
 import ProductCard from "@/components/ProductCard";
 import FilterBar from "@/components/FilterBar";
 
 export default function ArtistPage() {
   const params = useParams();
   const artistId = Number(params.artistId);
-  const artist = getArtistById(artistId);
-  const products = getProductsByArtist(artistId);
+  const { artists, products: allProducts } = useWeverseData();
+
+  const artist = useMemo(
+    () => artists.find((a) => a.artistId === artistId),
+    [artists, artistId]
+  );
+
+  const products = useMemo(
+    () => allProducts.filter((p) => p.artistId === artistId),
+    [allProducts, artistId]
+  );
+
   const [filter, setFilter] = useState("all");
 
   const categories = useMemo(() => {
@@ -76,7 +83,6 @@ export default function ArtistPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-6">
-      {/* 아티스트 헤더 */}
       <div className="flex items-center gap-4 mb-6">
         <div className="relative w-16 h-16 rounded-full overflow-hidden bg-gray-100 shrink-0">
           <Image
@@ -98,10 +104,8 @@ export default function ArtistPage() {
         </div>
       </div>
 
-      {/* 필터 */}
       <FilterBar filters={filters} onFilter={setFilter} activeFilter={filter} />
 
-      {/* 상품 그리드 */}
       {filtered.length === 0 ? (
         <div className="text-center py-20 text-gray-400">
           해당 조건의 상품이 없습니다.
