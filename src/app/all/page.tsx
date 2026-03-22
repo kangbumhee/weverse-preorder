@@ -25,8 +25,7 @@ export default function AllPage() {
   const filtered = useMemo(() => {
     let list = [...products];
 
-    if (statusFilter === "sale") list = list.filter((p) => p.status === "SALE");
-    else if (statusFilter === "soldout") list = list.filter((p) => p.status === "SOLD_OUT");
+    if (statusFilter !== "all") list = list.filter((p) => p.status === statusFilter);
 
     if (artistFilter !== "all") list = list.filter((p) => p.artistId === Number(artistFilter));
 
@@ -65,8 +64,9 @@ export default function AllPage() {
         />
         <select value={statusFilter} onChange={(e) => setStatusFilter(e.target.value)} className="px-3 py-1.5 rounded-lg border text-xs">
           <option value="all">전체 상태</option>
-          <option value="sale">구매 가능</option>
-          <option value="soldout">품절</option>
+          <option value="SALE">구매 가능</option>
+          <option value="TO_BE_SOLD">판매예정</option>
+          <option value="SOLD_OUT">품절</option>
         </select>
         <select value={artistFilter} onChange={(e) => setArtistFilter(e.target.value)} className="px-3 py-1.5 rounded-lg border text-xs">
           <option value="all">전체 아티스트</option>

@@ -55,10 +55,8 @@ export default function LimitedPage() {
       (item) => item.maxQty !== null && item.maxQty >= rangeMin && item.maxQty <= rangeMax
     );
 
-    if (statusFilter === "sale")
-      list = list.filter((item) => item.product.status === "SALE");
-    else if (statusFilter === "soldout")
-      list = list.filter((item) => item.product.status === "SOLD_OUT");
+    if (statusFilter !== "all")
+      list = list.filter((item) => item.product.status === statusFilter);
 
     return sortByDDayProximity(list.map((item) => item.product));
   }, [limitedProducts, rangeMin, rangeMax, statusFilter]);
@@ -119,8 +117,9 @@ export default function LimitedPage() {
           className="px-3 py-1.5 rounded-lg border text-xs"
         >
           <option value="all">전체 상태</option>
-          <option value="sale">구매 가능</option>
-          <option value="soldout">품절</option>
+          <option value="SALE">구매 가능</option>
+          <option value="TO_BE_SOLD">판매예정</option>
+          <option value="SOLD_OUT">품절</option>
         </select>
         <span className="text-xs text-gray-400">{filtered.length}개 상품 · 출고일 임박순</span>
       </div>
