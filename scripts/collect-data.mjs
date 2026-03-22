@@ -97,13 +97,161 @@ function asArray(payload) {
   return [];
 }
 
-async function getArtists(accessToken) {
-  const data = await apiCall(accessToken, "/api/v1/settings/artists", 2);
-  const list = asArray(data);
-  if (list.length === 0 && data && typeof data === "object" && !Array.isArray(data)) {
-    console.log("  아티스트 API 응답 키:", Object.keys(data).join(", "));
+const SHOP_BASE = "https://shop.weverse.io";
+
+const SHOP_MAIN_COOKIE = (accessToken) =>
+  `we2_access_token=${accessToken}; NEXT_LOCALE=ko; wes_currency=${CURRENCY}; wes_display_user_country=${COUNTRY}; wes_order_user_country=${COUNTRY}`;
+
+const BROWSER_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  Accept: "text/html,application/xhtml+xml",
+};
+
+function normalizeArtist(a) {
+  if (!a || typeof a.artistId !== "number") return null;
+  return {
+    artistId: a.artistId,
+    name: a.name || a.shortName || "",
+    shortName: a.shortName || a.name || "",
+    logoImageUrl: a.logoImageUrl || a.profileImageUrl || "",
+  };
+}
+
+function isArtistLikeArray(arr) {
+  if (!Array.isArray(arr) || arr.length === 0) return false;
+  const s = arr[0];
+  return s && typeof s.artistId === "number" && (s.name != null || s.shortName != null);
+}
+
+/** __NEXT_DATA__ 전체에서 아티스트 배열 후보 수집 */
+function collectArtistsFromNextData(nextData) {
+  const seen = new Map();
+  const add = (raw) => {
+    const n = normalizeArtist(raw);
+    if (n && !seen.has(n.artistId)) seen.set(n.artistId, n);
+  };
+
+  const queries = nextData?.props?.pageProps?.["$dehydratedState"]?.queries;
+  if (Array.isArray(queries)) {
+    for (const q of queries) {
+      const data = q?.state?.data;
+      if (!data) continue;
+      if (isArtistLikeArray(data)) data.forEach(add);
+      else if (data.artists && isArtistLikeArray(data.artists)) data.artists.forEach(add);
+      else if (Array.isArray(data) && data.length && data[0]?.artist?.artistId) {
+        data.forEach((row) => row.artist && add(row.artist));
+      }
+    }
   }
-  return list;
+
+  const walk = (obj, depth) => {
+    if (depth > 14 || obj == null || typeof obj !== "object") return;
+    if (Array.isArray(obj)) {
+      if (isArtistLikeArray(obj)) obj.forEach(add);
+      else obj.forEach((x) => walk(x, depth + 1));
+      return;
+    }
+    for (const v of Object.values(obj)) walk(v, depth + 1);
+  };
+  walk(nextData, 0);
+
+  return [...seen.values()];
+}
+
+function getFallbackArtistsFromFile() {
+  try {
+    if (!fs.existsSync(OUTPUT_FILE)) return [];
+    const raw = JSON.parse(fs.readFileSync(OUTPUT_FILE, "utf-8"));
+    if (raw.artists && Array.isArray(raw.artists) && raw.artists.length > 0) {
+      console.log(`  기존 JSON에서 아티스트 ${raw.artists.length}개 로드 (fallback)`);
+      return raw.artists
+        .map(normalizeArtist)
+        .filter(Boolean);
+    }
+  } catch (e) {
+    console.log("  기존 JSON fallback 실패:", e.message);
+  }
+  return [];
+}
+
+const HARDCODED_ARTISTS_FALLBACK = [
+  { artistId: 2, name: "BTS", shortName: "BTS", logoImageUrl: "" },
+  { artistId: 3, name: "TOMORROW X TOGETHER", shortName: "TXT", logoImageUrl: "" },
+  { artistId: 10, name: "ENHYPEN", shortName: "ENHYPEN", logoImageUrl: "" },
+  { artistId: 50, name: "LE SSERAFIM", shortName: "LE SSERAFIM", logoImageUrl: "" },
+  { artistId: 7, name: "SEVENTEEN", shortName: "SEVENTEEN", logoImageUrl: "" },
+  { artistId: 82, name: "NewJeans", shortName: "NewJeans", logoImageUrl: "" },
+  { artistId: 112, name: "BOYNEXTDOOR", shortName: "BOYNEXTDOOR", logoImageUrl: "" },
+  { artistId: 120, name: "ILLIT", shortName: "ILLIT", logoImageUrl: "" },
+  { artistId: 124, name: "EXO", shortName: "EXO", logoImageUrl: "" },
+  { artistId: 131, name: "NCT DREAM", shortName: "NCT DREAM", logoImageUrl: "" },
+  { artistId: 133, name: "aespa", shortName: "aespa", logoImageUrl: "" },
+  { artistId: 167, name: "PLAVE", shortName: "PLAVE", logoImageUrl: "" },
+];
+
+/**
+ * /api/v1/settings/artists 는 404. 샵 메인 HTML의 __NEXT_DATA__에서 아티스트 추출 (GitHub Actions 호환).
+ */
+async function getArtists(accessToken) {
+  const mainUrl = `${SHOP_BASE}/ko/shop/${CURRENCY}`;
+  console.log(`  샵 메인 페이지에서 아티스트 추출: ${mainUrl}`);
+
+  let html;
+  try {
+    const res = await fetch(mainUrl, {
+      headers: {
+        ...BROWSER_HEADERS,
+        Cookie: SHOP_MAIN_COOKIE(accessToken),
+      },
+    });
+    if (!res.ok) {
+      console.log(`  메인 페이지 HTTP ${res.status}`);
+    }
+    html = await res.text();
+  } catch (e) {
+    console.log("  메인 페이지 fetch 실패:", e.message);
+    html = "";
+  }
+
+  const match =
+    html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/) ||
+    html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+
+  if (!match) {
+    console.log("  __NEXT_DATA__ 없음 → 파일/하드코딩 fallback");
+    const fromFile = getFallbackArtistsFromFile();
+    if (fromFile.length > 0) return fromFile;
+    console.log("  하드코딩 아티스트 목록 사용 (최소 커버)");
+    return HARDCODED_ARTISTS_FALLBACK.map((a) => ({ ...a }));
+  }
+
+  let nextData;
+  try {
+    nextData = JSON.parse(match[1]);
+  } catch (e) {
+    console.log("  __NEXT_DATA__ JSON 파싱 실패:", e.message);
+    const fromFile = getFallbackArtistsFromFile();
+    return fromFile.length > 0 ? fromFile : HARDCODED_ARTISTS_FALLBACK.map((a) => ({ ...a }));
+  }
+
+  const pp = nextData.props?.pageProps;
+  if (pp && typeof pp === "object") {
+    console.log("  pageProps 키:", Object.keys(pp).slice(0, 20).join(", "));
+  }
+
+  let artists = collectArtistsFromNextData(nextData);
+
+  if (artists.length === 0) {
+    console.log("  __NEXT_DATA__에서 아티스트 배열을 찾지 못함 → 파일 fallback");
+    artists = getFallbackArtistsFromFile();
+  }
+  if (artists.length === 0) {
+    console.log("  하드코딩 아티스트 목록 사용");
+    artists = HARDCODED_ARTISTS_FALLBACK.map((a) => ({ ...a }));
+  }
+
+  artists.sort((a, b) => a.artistId - b.artistId);
+  return artists;
 }
 
 async function getCategories(accessToken, artistId) {
@@ -133,8 +281,8 @@ async function getProductDetail(accessToken, artistId, saleId) {
     const url = `https://shop.weverse.io/ko/shop/${CURRENCY}/artists/${artistId}/sales/${saleId}`;
     const resp = await fetch(url, {
       headers: {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "Cookie": `we2_access_token=${accessToken}; wes_currency=${CURRENCY}; wes_artistId=${artistId}; NEXT_LOCALE=ko; wes_display_user_country=${COUNTRY}; wes_order_user_country=${COUNTRY}`,
+        ...BROWSER_HEADERS,
+        Cookie: `we2_access_token=${accessToken}; wes_currency=${CURRENCY}; wes_artistId=${artistId}; NEXT_LOCALE=ko; wes_display_user_country=${COUNTRY}; wes_order_user_country=${COUNTRY}`,
       },
     });
 
