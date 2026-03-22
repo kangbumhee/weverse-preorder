@@ -11,34 +11,46 @@ const LANGUAGE = "ko";
 const COUNTRY = "KR";
 
 // ─── 토큰 관리 ───
+// Git에 커밋된 token.json이 진짜 저장소. Secret은 token.json에 refresh가 없을 때만(최초 1회) 사용.
 
-function loadTokens() {
-  // 환경변수에서 refresh_token 가져오기 (GitHub Secrets)
-  const envRefresh = process.env.WEVERSE_REFRESH_TOKEN;
-
-  // 파일에 저장된 토큰 확인
-  if (fs.existsSync(TOKEN_FILE)) {
-    const saved = JSON.parse(fs.readFileSync(TOKEN_FILE, "utf-8"));
-    // 환경변수가 있으면 그걸 우선 사용 (최초 설정 또는 수동 교체 시)
-    if (envRefresh && envRefresh !== saved.refreshToken) {
-      saved.refreshToken = envRefresh;
-      saved.accessToken = null; // 새 refresh면 access도 갱신 필요
+function loadToken() {
+  try {
+    if (fs.existsSync(TOKEN_FILE)) {
+      const saved = JSON.parse(fs.readFileSync(TOKEN_FILE, "utf-8"));
+      const rt = saved.refreshToken;
+      if (rt && rt !== "null" && rt !== null) {
+        console.log("token.json에서 refresh_token 로드");
+        return { accessToken: saved.accessToken ?? null, refreshToken: rt };
+      }
     }
-    return saved;
+  } catch (e) {
+    console.log("token.json 읽기 실패:", e.message);
   }
 
-  return { accessToken: null, refreshToken: envRefresh || null };
+  const envToken = process.env.WEVERSE_REFRESH_TOKEN;
+  if (envToken) {
+    console.log("환경변수에서 refresh_token 로드 (Secret / 최초 설정)");
+    return { accessToken: null, refreshToken: envToken };
+  }
+
+  throw new Error(
+    "토큰 없음: token.json에 refresh_token이 없고 WEVERSE_REFRESH_TOKEN도 없습니다."
+  );
 }
 
-function saveTokens(tokens) {
-  fs.writeFileSync(TOKEN_FILE, JSON.stringify(tokens, null, 2), "utf-8");
+function saveToken(tokenData) {
+  fs.writeFileSync(TOKEN_FILE, JSON.stringify(tokenData, null, 2), "utf-8");
+  console.log("token.json 저장 완료");
 }
 
 async function refreshAccessToken(refreshToken) {
-  console.log("토큰 갱신 중...");
   const resp = await fetch("https://accountapi.weverse.io/api/v1/token/refresh", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: {
+      "Content-Type": "application/json",
+      Referer: "https://shop.weverse.io/",
+      Origin: "https://shop.weverse.io",
+    },
     body: JSON.stringify({ refreshToken }),
   });
 
@@ -48,11 +60,9 @@ async function refreshAccessToken(refreshToken) {
   }
 
   const data = await resp.json();
-  console.log("토큰 갱신 성공!");
-  // 새 refresh_token도 반환됨 → 자동 갱신 (90일 연장)
   return {
     accessToken: data.accessToken,
-    refreshToken: data.refreshToken,
+    refreshToken: data.refreshToken || refreshToken,
   };
 }
 
@@ -405,27 +415,29 @@ function sleep(ms) {
 async function main() {
   console.log("=== Weverse Preorder Data Collector ===\n");
 
-  let tokens = loadTokens();
-
-  if (!tokens.refreshToken) {
-    console.error("refresh_token이 없습니다.");
-    console.error("GitHub Secrets에 WEVERSE_REFRESH_TOKEN을 설정하세요.");
+  let tokens;
+  try {
+    tokens = loadToken();
+  } catch (e) {
+    console.error(e.message);
+    console.error("GitHub Secret WEVERSE_REFRESH_TOKEN을 설정하거나 token.json을 채워주세요.");
     process.exit(1);
   }
 
-  // access_token 갱신
   try {
+    console.log("토큰 갱신 중...");
     const newTokens = await refreshAccessToken(tokens.refreshToken);
-    tokens.accessToken = newTokens.accessToken;
-    tokens.refreshToken = newTokens.refreshToken; // 새 refresh_token으로 자동 갱신!
-    saveTokens(tokens);
-    console.log("토큰 파일 저장 완료 (refresh_token 자동 갱신됨)\n");
+    tokens = {
+      accessToken: newTokens.accessToken,
+      refreshToken: newTokens.refreshToken,
+    };
+    saveToken(tokens);
+    console.log("토큰 갱신 성공!\n");
   } catch (e) {
     console.error("토큰 갱신 실패:", e.message);
     process.exit(1);
   }
 
-  // 데이터 수집
   try {
     const data = await collectData(tokens.accessToken);
 
