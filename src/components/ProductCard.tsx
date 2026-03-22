@@ -1,65 +1,37 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Product } from "@/lib/types";
 import {
   formatPrice,
-  formatDate,
   getMaxOrderQuantity,
   getLimitColor,
 } from "@/lib/data";
+
+const koDateOptsFull: Intl.DateTimeFormatOptions = {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+};
+const koDateOptsMd: Intl.DateTimeFormatOptions = {
+  month: "long",
+  day: "numeric",
+};
 
 export default function ProductCard({ product }: { product: Product }) {
   const p = product;
   const isSoldOut = p.status === "SOLD_OUT";
   const isToBeSold = p.status === "TO_BE_SOLD";
-  const gol = p.detail?.goodsOrderLimit;
-  const po = p.detail?.preOrder;
-  const ship = p.detail?.shipping?.shippingCountry;
+  const detail = p.detail;
+  const gol = detail?.goodsOrderLimit;
+  const po = detail?.preOrder;
+  const ship = detail?.shipping?.shippingCountry;
   const sp = ship?.shippingPolicy;
-  const opts = p.detail?.option?.options || [];
-  const earnedCash = p.detail?.earnedCash || 0;
+  const opts = detail?.option?.options || [];
+  const earnedCash = detail?.earnedCash || 0;
   const maxQty = getMaxOrderQuantity(p);
   const limitColor = getLimitColor(maxQty);
   const productUrl = `https://shop.weverse.io/shop/KRW/artists/${p.artistId}/sales/${p.saleId}`;
-
-  // D-day 클라이언트에서만 계산
-  const [ddayText, setDdayText] = useState<string>("");
-  const [ddayColor, setDdayColor] = useState<string>("bg-black/70");
-
-  useEffect(() => {
-    const startStr = po?.deliveryStartAt || p.deliveryDate;
-    const endStr = po?.deliveryEndAt;
-    if (!startStr) return;
-
-    const now = new Date();
-    const start = new Date(startStr);
-    const end = endStr ? new Date(endStr) : null;
-
-    if (end && now > end) {
-      setDdayText("출고완료");
-      setDdayColor("bg-gray-500");
-    } else if (now >= start) {
-      setDdayText("출고중");
-      setDdayColor("bg-blue-500");
-    } else {
-      const diff = Math.ceil((start.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
-      if (diff === 0) {
-        setDdayText("D-Day");
-        setDdayColor("bg-red-600");
-      } else if (diff <= 3) {
-        setDdayText("D-" + diff);
-        setDdayColor("bg-red-500");
-      } else if (diff <= 7) {
-        setDdayText("D-" + diff);
-        setDdayColor("bg-orange-500");
-      } else {
-        setDdayText("D-" + diff);
-        setDdayColor("bg-black/70");
-      }
-    }
-  }, [po, p.deliveryDate]);
 
   return (
     <a
@@ -95,6 +67,21 @@ export default function ProductCard({ product }: { product: Product }) {
           </div>
         )}
         <div className="absolute top-2 left-2 flex flex-wrap gap-1 z-20">
+          {p.status === "SALE" && (
+            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-green-500 text-white">
+              구매가능
+            </span>
+          )}
+          {p.status === "SOLD_OUT" && (
+            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-gray-500 text-white">
+              품절
+            </span>
+          )}
+          {p.status === "TO_BE_SOLD" && (
+            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-violet-500 text-white">
+              판매예정
+            </span>
+          )}
           <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-purple-600 text-white">
             예약판매
           </span>
@@ -118,13 +105,6 @@ export default function ProductCard({ product }: { product: Product }) {
           <div className="absolute top-2 right-2 z-20">
             <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${limitColor}`}>
               최대 {maxQty}개
-            </span>
-          </div>
-        )}
-        {ddayText && (
-          <div className="absolute bottom-2 right-2 z-20" suppressHydrationWarning>
-            <span className={`${ddayColor} text-white px-2 py-0.5 rounded text-[10px] font-bold`}>
-              {ddayText}
             </span>
           </div>
         )}
@@ -164,9 +144,22 @@ export default function ProductCard({ product }: { product: Product }) {
               </span>
             </div>
           )}
-          {po && (
-            <p className="text-[11px] text-gray-500">
-              📦 {formatDate(po.deliveryStartAt)} ~ {formatDate(po.deliveryEndAt)}
+          {po?.deliveryStartAt && (
+            <p className="text-xs text-gray-500" suppressHydrationWarning>
+              출고예정:{" "}
+              {new Date(po.deliveryStartAt).toLocaleDateString("ko-KR", koDateOptsFull)}
+              {po.deliveryEndAt && (
+                <>
+                  {" "}
+                  ~ {new Date(po.deliveryEndAt).toLocaleDateString("ko-KR", koDateOptsMd)}
+                </>
+              )}
+            </p>
+          )}
+          {detail?.saleStartAt && (
+            <p className="text-xs text-gray-400 mt-0.5" suppressHydrationWarning>
+              판매시작:{" "}
+              {new Date(detail.saleStartAt).toLocaleDateString("ko-KR", koDateOptsFull)}
             </p>
           )}
           <div className="flex flex-wrap gap-1.5 text-[10px] text-gray-500">

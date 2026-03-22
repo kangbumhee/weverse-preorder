@@ -222,6 +222,7 @@ async function collectData(accessToken) {
       p.detail = {
         goodsOrderLimit: detail.goodsOrderLimit || null,
         orderLimitInfo: detail.orderLimitInfo || null,
+        ...(detail.saleStartAt ? { saleStartAt: detail.saleStartAt } : {}),
         preOrder: detail.preOrder || null,
         option: detail.option || null,
         shipping: detail.shipping || null,

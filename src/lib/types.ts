@@ -43,6 +43,8 @@ export interface ShippingPolicy {
 export interface ProductDetail {
   goodsOrderLimit: GoodsOrderLimit | null;
   orderLimitInfo: { descriptions: string[] } | null;
+  /** 판매 시작일 (API에 있을 때만) */
+  saleStartAt?: string;
   preOrder: PreOrder | null;
   option: { options: OptionItem[] } | null;
   shipping: {
