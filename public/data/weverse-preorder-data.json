@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-22T23:30:57.943Z",
+  "updatedAt": "2026-03-23T02:26:15.416Z",
   "artists": [
     {
       "artistId": 2,
@@ -2461,7 +2461,7 @@
         "goodsOrderLimit": {
           "orderLimitType": "GOODS",
           "maxOrderQuantity": 1,
-          "availableQuantity": 0
+          "availableQuantity": 1
         },
         "orderLimitInfo": {
           "descriptions": [
@@ -3293,7 +3293,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/aa977417e528edc6f8b4efbadd886525.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/1bf45b38e667851602e7f17798da8091.png",
             "width": 720,
             "height": 4859
           }
@@ -3396,7 +3396,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/5deed17774dd1b3f9edd00d1b742b911.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/2cc6224b5c0b5aa45660d91a9c71f66e.png",
             "width": 720,
             "height": 4859
           }
@@ -3500,7 +3500,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c004bf1899779e56f63430ff4933b0d8.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/b4a1da7cd61cdb69d8144078f708159a.png",
             "width": 720,
             "height": 2072
           }
@@ -3603,7 +3603,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/8c8412225ac0049f6cb58cc6ad6c4cc3.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/af0d7f689c446beafe30ac2abb911624.png",
             "width": 720,
             "height": 2072
           }
@@ -3707,7 +3707,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/aa977417e528edc6f8b4efbadd886525.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/e08c9693ce82f3819c853ac8edbcdf48.png",
             "width": 720,
             "height": 4859
           }
@@ -3810,7 +3810,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/5deed17774dd1b3f9edd00d1b742b911.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/8c17f7f40b9e6d0ce3030b1c33d3830e.png",
             "width": 720,
             "height": 4859
           }
@@ -3914,7 +3914,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/aa977417e528edc6f8b4efbadd886525.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/2f2317b6e090eb3df7bd32d9a24e16a3.png",
             "width": 720,
             "height": 4859
           }
@@ -4017,7 +4017,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/5deed17774dd1b3f9edd00d1b742b911.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/b06e023660e733df31276e4f689bb705.png",
             "width": 720,
             "height": 4859
           }
@@ -4118,7 +4118,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c004bf1899779e56f63430ff4933b0d8.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/758d71570a5d0a8f91c1e96c9dd1a2c4.png",
             "width": 720,
             "height": 2072
           }
@@ -4218,7 +4218,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/8c8412225ac0049f6cb58cc6ad6c4cc3.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/efce79e8523ff9c0fadb11d3da21bd97.png",
             "width": 720,
             "height": 2072
           }
@@ -4319,7 +4319,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/96272ebed240188d4b9f03ee19a6917e.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/3596784ef5a484cd61f8e40a673390d1.png",
             "width": 720,
             "height": 1919
           }
@@ -4419,7 +4419,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/99b3eaedec4fb77effb4ed34fc05d855.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/7ed7a5004d522d14651089541884c5ff.png",
             "width": 720,
             "height": 1919
           }
@@ -4520,7 +4520,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/87a2a40f100bdbd202aa491fb4268932.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/95e6c784db500eace345734c451574d6.png",
             "width": 720,
             "height": 1224
           }
@@ -4620,7 +4620,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/b1bd2a3f7d82c5e102fc251b33862d90.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/ccc3f20b9f6377f344244ab1b67902b4.png",
             "width": 720,
             "height": 1224
           }
@@ -4721,7 +4721,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/aa977417e528edc6f8b4efbadd886525.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c5eee949d01afcff6797fcc2184154c5.png",
             "width": 720,
             "height": 4859
           }
@@ -4821,7 +4821,7 @@
             "height": 4369
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/5deed17774dd1b3f9edd00d1b742b911.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/f469fb8dedc6630617be440787c5c0a9.png",
             "width": 720,
             "height": 4859
           }
@@ -24375,8 +24375,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3166,
-                3167
+                3167,
+                3166
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -24432,8 +24432,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3172,
-                3173
+                3173,
+                3172
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -24451,8 +24451,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3174,
-                3175
+                3175,
+                3174
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -24470,8 +24470,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3176,
-                3177
+                3177,
+                3176
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -24527,8 +24527,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3183,
-                3182
+                3182,
+                3183
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -24546,8 +24546,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3184,
-                3185
+                3185,
+                3184
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -24584,8 +24584,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3188,
-                3189
+                3189,
+                3188
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -24622,8 +24622,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3193,
-                3192
+                3192,
+                3193
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -24641,8 +24641,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3195,
-                3194
+                3194,
+                3195
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -24679,8 +24679,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3198,
-                3199
+                3199,
+                3198
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -24717,8 +24717,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3202,
-                3203
+                3203,
+                3202
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -24793,8 +24793,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3210,
-                3211
+                3211,
+                3210
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -24812,8 +24812,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3213,
-                3212
+                3212,
+                3213
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -28093,8 +28093,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3033,
-                3032
+                3032,
+                3033
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -28131,8 +28131,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3036,
-                3037
+                3037,
+                3036
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -28150,8 +28150,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3039,
-                3038
+                3038,
+                3039
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -28207,8 +28207,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3045,
-                3044
+                3044,
+                3045
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -28264,8 +28264,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3050,
-                3051
+                3051,
+                3050
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -28283,8 +28283,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3053,
-                3052
+                3052,
+                3053
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -28302,8 +28302,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3055,
-                3054
+                3054,
+                3055
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -28321,8 +28321,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3056,
-                3057
+                3057,
+                3056
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -28397,8 +28397,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3065,
-                3064
+                3064,
+                3065
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -33410,7 +33410,7 @@
                 106539
               ],
               "saleOptionName": "YUSHI",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -36710,7 +36710,7 @@
                 106186
               ],
               "saleOptionName": "SAKUYA",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
