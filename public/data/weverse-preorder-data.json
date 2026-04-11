@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-10T23:37:12.665Z",
+  "updatedAt": "2026-04-11T23:37:02.913Z",
   "artists": [
     {
       "artistId": 2,
@@ -2650,8 +2650,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3244,
-                3245
+                3245,
+                3244
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -2688,8 +2688,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3249,
-                3248
+                3248,
+                3249
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -2707,8 +2707,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3251,
-                3250
+                3250,
+                3251
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -2726,8 +2726,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3252,
-                3253
+                3253,
+                3252
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -2745,8 +2745,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3254,
-                3255
+                3255,
+                3254
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -2783,8 +2783,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3259,
-                3258
+                3258,
+                3259
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -2840,8 +2840,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3264,
-                3265
+                3265,
+                3264
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -2859,8 +2859,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3266,
-                3267
+                3267,
+                3266
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -12683,8 +12683,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3445,
-                3444
+                3444,
+                3445
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -12702,8 +12702,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3446,
-                3447
+                3447,
+                3446
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -12740,8 +12740,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3451,
-                3450
+                3450,
+                3451
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -12759,8 +12759,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3453,
-                3452
+                3452,
+                3453
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -12797,8 +12797,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3456,
-                3457
+                3457,
+                3456
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -12816,8 +12816,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3458,
-                3459
+                3459,
+                3458
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -12854,8 +12854,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3462,
-                3463
+                3463,
+                3462
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -12873,8 +12873,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3465,
-                3464
+                3464,
+                3465
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -12968,8 +12968,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3474,
-                3475
+                3475,
+                3474
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -27779,7 +27779,7 @@
                 109385
               ],
               "saleOptionName": "SUHO",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -30795,8 +30795,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3163,
-                3162
+                3162,
+                3163
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -30871,8 +30871,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3171,
-                3170
+                3170,
+                3171
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -30890,8 +30890,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3173,
-                3172
+                3172,
+                3173
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -30928,8 +30928,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3177,
-                3176
+                3176,
+                3177
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -30947,8 +30947,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3179,
-                3178
+                3178,
+                3179
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -30966,8 +30966,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3180,
-                3181
+                3181,
+                3180
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -30985,8 +30985,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3182,
-                3183
+                3183,
+                3182
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31004,8 +31004,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3184,
-                3185
+                3185,
+                3184
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31042,8 +31042,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3189,
-                3188
+                3188,
+                3189
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31061,8 +31061,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3191,
-                3190
+                3190,
+                3191
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31080,8 +31080,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3192,
-                3193
+                3193,
+                3192
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31137,8 +31137,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3199,
-                3198
+                3198,
+                3199
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31156,8 +31156,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3200,
-                3201
+                3201,
+                3200
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31175,8 +31175,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3203,
-                3202
+                3202,
+                3203
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31194,8 +31194,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3204,
-                3205
+                3205,
+                3204
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31213,8 +31213,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3206,
-                3207
+                3207,
+                3206
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31232,8 +31232,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3209,
-                3208
+                3208,
+                3209
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31251,8 +31251,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3210,
-                3211
+                3211,
+                3210
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32820,7 +32820,7 @@
                 111020
               ],
               "saleOptionName": "SIWON",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 130000,
@@ -37669,8 +37669,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3030,
-                3031
+                3031,
+                3030
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -37688,8 +37688,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3033,
-                3032
+                3032,
+                3033
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -37707,8 +37707,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3035,
-                3034
+                3034,
+                3035
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -37726,8 +37726,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3037,
-                3036
+                3036,
+                3037
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -37745,8 +37745,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3039,
-                3038
+                3038,
+                3039
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -37783,8 +37783,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3042,
-                3043
+                3043,
+                3042
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -37878,8 +37878,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3052,
-                3053
+                3053,
+                3052
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -37897,8 +37897,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3054,
-                3055
+                3055,
+                3054
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -37992,8 +37992,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3064,
-                3065
+                3065,
+                3064
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -38690,7 +38690,7 @@
                 110114
               ],
               "saleOptionName": "LONG SLEEVE",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 47000,
@@ -38876,7 +38876,7 @@
                 110119
               ],
               "saleOptionName": "MARK",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -38924,7 +38924,7 @@
                 110122
               ],
               "saleOptionName": "HAECHAN",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -39068,7 +39068,7 @@
                 110131
               ],
               "saleOptionName": "MARK",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -39116,7 +39116,7 @@
                 110134
               ],
               "saleOptionName": "HAECHAN",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -43652,7 +43652,7 @@
                 107679
               ],
               "saleOptionName": "EUNSEOK",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -47939,7 +47939,7 @@
                 106517
               ],
               "saleOptionName": "SION",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -48646,7 +48646,7 @@
                 106502
               ],
               "saleOptionName": "SION",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -55983,6 +55983,223 @@
       }
     },
     {
+      "saleId": 56669,
+      "artistId": 206,
+      "artistName": "KATSEYE",
+      "artistShortName": "KATSEYE",
+      "category": "Album",
+      "name": "[OFFLINE FANSIGN] 'BEAUTIFUL CHAOS' (Random)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/b17ebe1490e68846723b08607ee6c432.png",
+      "icons": [
+        "PRE_ORDER",
+        "BENEFIT"
+      ],
+      "emblems": [
+        "FAN_EVENT"
+      ],
+      "price": {
+        "originalPrice": 17800,
+        "salePrice": 17800,
+        "supplyPrice": 17800,
+        "supplySalePrice": 17800,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-04-16T15:00:00+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "GOODS",
+          "maxOrderQuantity": 12,
+          "availableQuantity": 12
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "해당 상품은 Weverse Global 상품입니다.\t\t",
+            "본 상품은 이벤트 응모권이 포함된 상품입니다. 이벤트 응모 시 당첨자 발표 후에는 취소 및 환불이 불가하므로 신중한 구매를 부탁드립니다.\t\t\t"
+          ]
+        },
+        "preOrder": {
+          "deliveryStartAt": "2026-04-16T15:00:00+09:00",
+          "deliveryEndAt": "2026-04-23T15:00:00+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 111309,
+              "saleStockIds": [
+                111309
+              ],
+              "saleOptionName": "Random",
+              "isSoldOut": false,
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 17800,
+              "supplyOptionSalePrice": 17800
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 1,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "평균 배송 1-3일 소요",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 150,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/b17ebe1490e68846723b08607ee6c432.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/3362ca631bb53fe74f0786aa90c1d3a9.png",
+            "width": 720,
+            "height": 1210
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/3d0e1bc351ad6f291c2596c4a3a3ae5a.png",
+            "width": 1000,
+            "height": 6261
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/01796cc5f21185ee6db01598ffad71b6.png",
+            "width": 1000,
+            "height": 6261
+          }
+        ]
+      }
+    },
+    {
+      "saleId": 56668,
+      "artistId": 206,
+      "artistName": "KATSEYE",
+      "artistShortName": "KATSEYE",
+      "category": "Album",
+      "name": "[OFFLINE FANSIGN] 'BEAUTIFUL CHAOS' (Set)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/65f23404e984f5e4fdf34591dae8166b.png",
+      "icons": [
+        "PRE_ORDER",
+        "BENEFIT"
+      ],
+      "emblems": [
+        "FAN_EVENT"
+      ],
+      "price": {
+        "originalPrice": 35600,
+        "salePrice": 35600,
+        "supplyPrice": 35600,
+        "supplySalePrice": 35600,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-04-16T15:00:00+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "GOODS",
+          "maxOrderQuantity": 6,
+          "availableQuantity": 6
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "해당 상품은 Weverse Global 상품입니다.",
+            "해당 상품은 [Beautiful Ver.],  [Chaotic Ver.] 으로 구성된 세트 상품입니다.",
+            "본 상품은 이벤트 응모권이 포함된 상품입니다. 이벤트 응모 시 당첨자 발표 후에는 취소 및 환불이 불가하므로 신중한 구매를 부탁드립니다.\t\t\t"
+          ]
+        },
+        "preOrder": {
+          "deliveryStartAt": "2026-04-16T15:00:00+09:00",
+          "deliveryEndAt": "2026-04-23T15:00:00+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 111308,
+              "saleStockIds": [
+                111308
+              ],
+              "saleOptionName": "SET",
+              "isSoldOut": false,
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 35600,
+              "supplyOptionSalePrice": 35600
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 1,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "평균 배송 1-3일 소요",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 350,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/65f23404e984f5e4fdf34591dae8166b.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/3c9e2af2c31f6e3e96d6ee0eedec9e0b.png",
+            "width": 720,
+            "height": 1210
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/44cd31f8b42d7c7433f138ef5be16af8.png",
+            "width": 1000,
+            "height": 6261
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/9db33cb9035e79d41f4822ebb2232582.png",
+            "width": 1000,
+            "height": 6261
+          }
+        ]
+      }
+    },
+    {
       "saleId": 54557,
       "artistId": 213,
       "artistName": "Hearts2Hearts",
@@ -61095,7 +61312,7 @@
                 109983
               ],
               "saleOptionName": "DICON VOLUME N°33 ALPHA DRIVE ONE DRIVE THE YOUTH / HEARTS GROW ONE (SANGHYEON)",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 83400,
