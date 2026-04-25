@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-24T23:40:35.113Z",
+  "updatedAt": "2026-04-25T23:39:47.522Z",
   "artists": [
     {
       "artistId": 2,
@@ -3795,8 +3795,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3248,
-                3249
+                3249,
+                3248
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -3814,8 +3814,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3250,
-                3251
+                3251,
+                3250
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -3852,8 +3852,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3254,
-                3255
+                3255,
+                3254
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -3871,8 +3871,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3257,
-                3256
+                3256,
+                3257
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -3909,8 +3909,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3260,
-                3261
+                3261,
+                3260
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -3928,8 +3928,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3262,
-                3263
+                3263,
+                3262
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -3947,8 +3947,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3265,
-                3264
+                3264,
+                3265
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -3966,8 +3966,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3266,
-                3267
+                3267,
+                3266
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -4610,7 +4610,7 @@
                 113606
               ],
               "saleOptionName": "WHITE / L",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -4692,8 +4692,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4472,
-                4473
+                4473,
+                4472
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -4724,14 +4724,14 @@
                 113612
               ],
               "saleOptionName": "PASTEL YELLOW / L",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4477,
-                4476
+                4476,
+                4477
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -4802,7 +4802,7 @@
                     4477
                   ],
                   "variantOptionName": "L",
-                  "isAvailable": true
+                  "isAvailable": false
                 }
               ]
             }
@@ -4905,14 +4905,14 @@
                 113613
               ],
               "saleOptionName": "WHITE / S",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4479,
-                4478
+                4478,
+                4479
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -4949,8 +4949,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4482,
-                4483
+                4483,
+                4482
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -4962,14 +4962,14 @@
                 113616
               ],
               "saleOptionName": "DARK CHARCOAL / S",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4485,
-                4484
+                4484,
+                4485
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -4987,8 +4987,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4486,
-                4487
+                4487,
+                4486
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -5006,8 +5006,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4489,
-                4488
+                4488,
+                4489
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -5019,14 +5019,14 @@
                 113619
               ],
               "saleOptionName": "LIGHT PINK / S",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4490,
-                4491
+                4491,
+                4490
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -5063,8 +5063,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4495,
-                4494
+                4494,
+                4495
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -5093,7 +5093,7 @@
                     4488
                   ],
                   "variantOptionName": "DARK CHARCOAL",
-                  "isAvailable": true
+                  "isAvailable": false
                 },
                 {
                   "variantOptionIds": [
@@ -5102,7 +5102,7 @@
                     4494
                   ],
                   "variantOptionName": "LIGHT PINK",
-                  "isAvailable": true
+                  "isAvailable": false
                 }
               ]
             },
@@ -5117,7 +5117,7 @@
                     4491
                   ],
                   "variantOptionName": "S",
-                  "isAvailable": true
+                  "isAvailable": false
                 },
                 {
                   "variantOptionIds": [
@@ -5244,8 +5244,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4497,
-                4496
+                4496,
+                4497
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -5263,8 +5263,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4499,
-                4498
+                4498,
+                4499
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -5282,8 +5282,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4500,
-                4501
+                4501,
+                4500
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -5301,8 +5301,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4502,
-                4503
+                4503,
+                4502
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -5320,8 +5320,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4504,
-                4505
+                4505,
+                4504
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -5358,8 +5358,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4509,
-                4508
+                4508,
+                4509
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -5377,8 +5377,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4511,
-                4510
+                4510,
+                4511
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -5396,8 +5396,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4512,
-                4513
+                4513,
+                4512
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -15308,8 +15308,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3450,
-                3451
+                3451,
+                3450
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -15327,8 +15327,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3452,
-                3453
+                3453,
+                3452
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -15346,8 +15346,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3454,
-                3455
+                3455,
+                3454
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -15365,8 +15365,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3457,
-                3456
+                3456,
+                3457
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -15403,8 +15403,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3461,
-                3460
+                3460,
+                3461
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -15422,8 +15422,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3462,
-                3463
+                3463,
+                3462
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -15441,8 +15441,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3464,
-                3465
+                3465,
+                3464
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -15479,8 +15479,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3468,
-                3469
+                3469,
+                3468
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -18157,7 +18157,7 @@
                 112295
               ],
               "saleOptionName": "HUHYUNJIN",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 33
@@ -18189,7 +18189,7 @@
                 112297
               ],
               "saleOptionName": "HONGEUNCHAE",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 33
@@ -18307,7 +18307,7 @@
                 112299
               ],
               "saleOptionName": "SAKURA",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 33
@@ -18323,7 +18323,7 @@
                 112300
               ],
               "saleOptionName": "HUHYUNJIN",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 33
@@ -18339,7 +18339,7 @@
                 112301
               ],
               "saleOptionName": "KAZUHA",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 33
@@ -18355,7 +18355,7 @@
                 112302
               ],
               "saleOptionName": "HONGEUNCHAE",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 33
@@ -31816,7 +31816,7 @@
                 107309
               ],
               "saleOptionName": "MINI BOOK",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 30000,
@@ -32990,8 +32990,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3163,
-                3162
+                3162,
+                3163
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -33161,8 +33161,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3181,
-                3180
+                3180,
+                3181
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -33180,8 +33180,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3183,
-                3182
+                3182,
+                3183
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -33237,8 +33237,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3189,
-                3188
+                3188,
+                3189
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -33256,8 +33256,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3190,
-                3191
+                3191,
+                3190
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -33294,8 +33294,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3195,
-                3194
+                3194,
+                3195
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -33351,8 +33351,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3201,
-                3200
+                3200,
+                3201
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -33389,8 +33389,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3205,
-                3204
+                3204,
+                3205
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -33427,8 +33427,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3208,
-                3209
+                3209,
+                3208
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -33446,8 +33446,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3210,
-                3211
+                3211,
+                3210
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -34300,7 +34300,7 @@
                 111403
               ],
               "saleOptionName": "YESUNG",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -34380,7 +34380,7 @@
                 111408
               ],
               "saleOptionName": "RYEOWOOK",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -34991,7 +34991,7 @@
                 111018
               ],
               "saleOptionName": "EUNHYUK",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 130000,
@@ -39784,8 +39784,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3032,
-                3033
+                3033,
+                3032
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -39803,8 +39803,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3034,
-                3035
+                3035,
+                3034
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -39841,8 +39841,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3039,
-                3038
+                3038,
+                3039
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -39879,8 +39879,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3042,
-                3043
+                3043,
+                3042
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -39898,8 +39898,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3044,
-                3045
+                3045,
+                3044
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -39993,8 +39993,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3055,
-                3054
+                3054,
+                3055
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -40088,8 +40088,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3064,
-                3065
+                3065,
+                3064
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 28000,
@@ -47378,7 +47378,7 @@
                 107703
               ],
               "saleOptionName": "Size 11",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -49068,7 +49068,7 @@
                 113542
               ],
               "saleOptionName": "YUSHI",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -49388,7 +49388,7 @@
                 106537
               ],
               "saleOptionName": "SION",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -51566,7 +51566,7 @@
       "artistShortName": "TWS",
       "category": "Album",
       "name": "5th Mini Album 'NO TRAGEDY' ROMEO CAT Ver.",
-      "status": "SALE",
+      "status": "SOLD_OUT",
       "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/257a730206a7d27771c37b14f62b2e24.png",
       "icons": [
         "PRE_ORDER"
@@ -56806,7 +56806,7 @@
                 109965
               ],
               "saleOptionName": "DICON VOLUME N°33 ALPHA DRIVE ONE DRIVE THE YOUTH (SANGHYEON)",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 41700,
@@ -56916,7 +56916,7 @@
                 109966
               ],
               "saleOptionName": "DICON VOLUME N°33 ALPHA DRIVE ONE DRIVE THE YOUTH (SET)",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 333600,
@@ -57281,7 +57281,7 @@
                 109975
               ],
               "saleOptionName": "DICON VOLUME N°33 ALPHA DRIVE ONE HEARTS GROW ONE (SET)",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 333600,
