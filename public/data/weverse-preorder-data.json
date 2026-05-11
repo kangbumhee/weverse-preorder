@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T23:51:44.170Z",
+  "updatedAt": "2026-05-10T23:53:54.977Z",
   "artists": [
     {
       "artistId": 2,
@@ -19359,8 +19359,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3240,
-                3241
+                3241,
+                3240
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -19397,8 +19397,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3245,
-                3244
+                3244,
+                3245
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -19473,8 +19473,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3253,
-                3252
+                3252,
+                3253
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -19568,8 +19568,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3263,
-                3262
+                3262,
+                3263
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -19587,8 +19587,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3264,
-                3265
+                3265,
+                3264
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -30853,7 +30853,7 @@
                 116395
               ],
               "saleOptionName": "Prasel_Hhm Nya Ring",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -30885,7 +30885,7 @@
                 116397
               ],
               "saleOptionName": "On Flick_Choi Yong Meong",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -32611,8 +32611,8 @@
               "saleOptionName": "Kiwi / JEONGHAN",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4732,
-                4733
+                4733,
+                4732
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -32626,8 +32626,8 @@
               "saleOptionName": "Kiwi / JOSHUA",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4735,
-                4734
+                4734,
+                4735
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -32671,8 +32671,8 @@
               "saleOptionName": "Kiwi / WONWOO",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4741,
-                4740
+                4740,
+                4741
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -32686,8 +32686,8 @@
               "saleOptionName": "Kiwi / WOOZI",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4742,
-                4743
+                4743,
+                4742
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -32701,8 +32701,8 @@
               "saleOptionName": "Kiwi / THE 8",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4745,
-                4744
+                4744,
+                4745
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -32731,8 +32731,8 @@
               "saleOptionName": "Kiwi / DK",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4749,
-                4748
+                4748,
+                4749
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -32746,8 +32746,8 @@
               "saleOptionName": "Kiwi / SEUNGKWAN",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4750,
-                4751
+                4751,
+                4750
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -32776,8 +32776,8 @@
               "saleOptionName": "Kiwi / DINO",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4754,
-                4755
+                4755,
+                4754
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -32836,8 +32836,8 @@
               "saleOptionName": "Apple / JUN",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4762,
-                4763
+                4763,
+                4762
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -32866,8 +32866,8 @@
               "saleOptionName": "Apple / WONWOO",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4766,
-                4767
+                4767,
+                4766
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -32896,8 +32896,8 @@
               "saleOptionName": "Apple / THE 8",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4771,
-                4770
+                4770,
+                4771
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -32926,8 +32926,8 @@
               "saleOptionName": "Apple / DK",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4775,
-                4774
+                4774,
+                4775
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -32971,8 +32971,8 @@
               "saleOptionName": "Apple / DINO",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4781,
-                4780
+                4780,
+                4781
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -32986,8 +32986,8 @@
               "saleOptionName": "Peach / S.COUPS",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4782,
-                4783
+                4783,
+                4782
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -33016,8 +33016,8 @@
               "saleOptionName": "Peach / JOSHUA",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4786,
-                4787
+                4787,
+                4786
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -33031,8 +33031,8 @@
               "saleOptionName": "Peach / JUN",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4788,
-                4789
+                4789,
+                4788
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -33061,8 +33061,8 @@
               "saleOptionName": "Peach / WONWOO",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4792,
-                4793
+                4793,
+                4792
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -33076,8 +33076,8 @@
               "saleOptionName": "Peach / WOOZI",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4795,
-                4794
+                4794,
+                4795
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -33091,8 +33091,8 @@
               "saleOptionName": "Peach / THE 8",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4796,
-                4797
+                4797,
+                4796
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -33106,8 +33106,8 @@
               "saleOptionName": "Peach / MINGYU",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4799,
-                4798
+                4798,
+                4799
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -33136,8 +33136,8 @@
               "saleOptionName": "Peach / SEUNGKWAN",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4803,
-                4802
+                4802,
+                4803
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -33166,8 +33166,8 @@
               "saleOptionName": "Peach / DINO",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4807,
-                4806
+                4806,
+                4807
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 18900,
@@ -33503,8 +33503,8 @@
               "saleOptionName": "Hip Hop / JOSHUA",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4578,
-                4579
+                4579,
+                4578
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33518,8 +33518,8 @@
               "saleOptionName": "Hip Hop / JUN",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4580,
-                4581
+                4581,
+                4580
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33593,8 +33593,8 @@
               "saleOptionName": "Hip Hop / MINGYU",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4591,
-                4590
+                4590,
+                4591
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33638,8 +33638,8 @@
               "saleOptionName": "Hip Hop / VERNON",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4597,
-                4596
+                4596,
+                4597
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33668,8 +33668,8 @@
               "saleOptionName": "Vocal / S.COUPS",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4600,
-                4601
+                4601,
+                4600
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33683,8 +33683,8 @@
               "saleOptionName": "Vocal / JEONGHAN",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4603,
-                4602
+                4602,
+                4603
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33758,8 +33758,8 @@
               "saleOptionName": "Vocal / WOOZI",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4612,
-                4613
+                4613,
+                4612
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33773,8 +33773,8 @@
               "saleOptionName": "Vocal / THE 8",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4614,
-                4615
+                4615,
+                4614
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33803,8 +33803,8 @@
               "saleOptionName": "Vocal / DK",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4619,
-                4618
+                4618,
+                4619
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33848,8 +33848,8 @@
               "saleOptionName": "Vocal / DINO",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4624,
-                4625
+                4625,
+                4624
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33863,8 +33863,8 @@
               "saleOptionName": "Performance / S.COUPS",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4627,
-                4626
+                4626,
+                4627
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33878,8 +33878,8 @@
               "saleOptionName": "Performance / JEONGHAN",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4629,
-                4628
+                4628,
+                4629
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33893,8 +33893,8 @@
               "saleOptionName": "Performance / JOSHUA",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4631,
-                4630
+                4630,
+                4631
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33908,8 +33908,8 @@
               "saleOptionName": "Performance / JUN",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4633,
-                4632
+                4632,
+                4633
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33953,8 +33953,8 @@
               "saleOptionName": "Performance / WOOZI",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4639,
-                4638
+                4638,
+                4639
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -33968,8 +33968,8 @@
               "saleOptionName": "Performance / THE 8",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4641,
-                4640
+                4640,
+                4641
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -34013,8 +34013,8 @@
               "saleOptionName": "Performance / SEUNGKWAN",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4647,
-                4646
+                4646,
+                4647
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -34043,8 +34043,8 @@
               "saleOptionName": "Performance / DINO",
               "isSoldOut": false,
               "variantOptionLocation": [
-                4651,
-                4650
+                4650,
+                4651
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 34500,
@@ -43414,7 +43414,7 @@
                 116083
               ],
               "saleOptionName": "THE 8",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 3
@@ -79782,8 +79782,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3163,
-                3162
+                3162,
+                3163
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -79820,8 +79820,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3167,
-                3166
+                3166,
+                3167
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -79991,8 +79991,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3184,
-                3185
+                3185,
+                3184
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -80048,8 +80048,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3191,
-                3190
+                3190,
+                3191
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -80067,8 +80067,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3193,
-                3192
+                3192,
+                3193
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -80124,8 +80124,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3199,
-                3198
+                3198,
+                3199
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -80181,8 +80181,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3205,
-                3204
+                3204,
+                3205
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -80200,8 +80200,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3206,
-                3207
+                3207,
+                3206
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -80219,8 +80219,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3209,
-                3208
+                3208,
+                3209
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -80238,8 +80238,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3210,
-                3211
+                3211,
+                3210
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -80257,8 +80257,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3212,
-                3213
+                3213,
+                3212
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -80276,8 +80276,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3214,
-                3215
+                3215,
+                3214
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -81076,7 +81076,7 @@
                 111402
               ],
               "saleOptionName": "HEECHUL",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -89834,7 +89834,7 @@
       "artistShortName": "NCT WISH",
       "category": "Merch",
       "name": "CUPID BOOK",
-      "status": "SALE",
+      "status": "SOLD_OUT",
       "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/9a0d630c251f2165fad0b64a3d669d5d.png",
       "icons": [
         "PRE_ORDER"
@@ -89941,7 +89941,7 @@
                 114646
               ],
               "saleOptionName": "RYO",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -90468,7 +90468,7 @@
                 114665
               ],
               "saleOptionName": "JAEHEE",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -90665,7 +90665,7 @@
                 114678
               ],
               "saleOptionName": "RYO",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -90814,7 +90814,7 @@
                 114682
               ],
               "saleOptionName": "YUSHI",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -90920,7 +90920,7 @@
       "artistShortName": "NCT WISH",
       "category": "Merch",
       "name": "WISH DOLL PAJAMA SET",
-      "status": "SALE",
+      "status": "SOLD_OUT",
       "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/77bc603251e0c3366c781d8b5280001b.png",
       "icons": [
         "PRE_ORDER"
@@ -90969,8 +90969,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4551,
-                4550
+                4550,
+                4551
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -91007,8 +91007,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4555,
-                4554
+                4554,
+                4555
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -91020,7 +91020,7 @@
                 114689
               ],
               "saleOptionName": "M SIZE / JAEHEE",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -91039,7 +91039,7 @@
                 114690
               ],
               "saleOptionName": "M SIZE / RYO",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -91064,8 +91064,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4561,
-                4560
+                4560,
+                4561
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -91115,7 +91115,7 @@
                 114694
               ],
               "saleOptionName": "L SIZE / YUSHI",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -91140,8 +91140,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4568,
-                4569
+                4569,
+                4568
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -91159,8 +91159,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4571,
-                4570
+                4570,
+                4571
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -91214,7 +91214,7 @@
                     4572
                   ],
                   "variantOptionName": "L SIZE",
-                  "isAvailable": true
+                  "isAvailable": false
                 }
               ]
             },
@@ -91252,7 +91252,7 @@
                     4569
                   ],
                   "variantOptionName": "JAEHEE",
-                  "isAvailable": false
+                  "isAvailable": true
                 },
                 {
                   "variantOptionIds": [
@@ -91260,7 +91260,7 @@
                     4571
                   ],
                   "variantOptionName": "RYO",
-                  "isAvailable": false
+                  "isAvailable": true
                 },
                 {
                   "variantOptionIds": [
@@ -92768,8 +92768,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4526,
-                4527
+                4527,
+                4526
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -92787,8 +92787,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4529,
-                4528
+                4528,
+                4529
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -92800,14 +92800,14 @@
                 114607
               ],
               "saleOptionName": "M SIZE / YUSHI",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4530,
-                4531
+                4531,
+                4530
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -92819,7 +92819,7 @@
                 114608
               ],
               "saleOptionName": "M SIZE / JAEHEE",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -92863,8 +92863,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4537,
-                4536
+                4536,
+                4537
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -92901,8 +92901,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4540,
-                4541
+                4541,
+                4540
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -92920,8 +92920,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4543,
-                4542
+                4542,
+                4543
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -92939,8 +92939,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4545,
-                4544
+                4544,
+                4545
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -92958,8 +92958,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4546,
-                4547
+                4547,
+                4546
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -92977,8 +92977,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4548,
-                4549
+                4549,
+                4548
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -93001,7 +93001,7 @@
                     4536
                   ],
                   "variantOptionName": "M SIZE",
-                  "isAvailable": false
+                  "isAvailable": true
                 },
                 {
                   "variantOptionIds": [
@@ -93043,7 +93043,7 @@
                     4543
                   ],
                   "variantOptionName": "YUSHI",
-                  "isAvailable": false
+                  "isAvailable": true
                 },
                 {
                   "variantOptionIds": [
@@ -93051,7 +93051,7 @@
                     4545
                   ],
                   "variantOptionName": "JAEHEE",
-                  "isAvailable": false
+                  "isAvailable": true
                 },
                 {
                   "variantOptionIds": [
@@ -93672,7 +93672,7 @@
                 114628
               ],
               "saleOptionName": "RIKU",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -95273,7 +95273,7 @@
                 113563
               ],
               "saleOptionName": "SAKUYA",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -102341,904 +102341,6 @@
             "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/84d1beabfd3d78391b01019e3524c51b.png",
             "width": 720,
             "height": 1440
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 58016,
-      "artistId": 255,
-      "artistName": "CORTIS",
-      "artistShortName": "CORTIS",
-      "category": "Album",
-      "name": "[YOUTUBE GIFT] The 2nd EP [GREENGREEN] (Set)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/c12d73db507c5b9eba174b92edd87714.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 59100,
-        "salePrice": 59100,
-        "supplyPrice": 59100,
-        "supplySalePrice": 59100,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-05-13T00:00:00+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 4,
-          "availableQuantity": 4
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t",
-            "해당 상품은 [BRIDGE Ver., STREET Ver., STUDIO Ver.] 으로 구성된 세트 상품입니다."
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-05-13T00:00:00+09:00",
-          "deliveryEndAt": "2026-05-20T00:00:00+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 114360,
-              "saleStockIds": [
-                114360
-              ],
-              "saleOptionName": "Set",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 59100,
-              "supplyOptionSalePrice": 59100
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 550,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/c12d73db507c5b9eba174b92edd87714.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/7dd305813c15b8c5b5c051cba748d5aa.png",
-            "width": 720,
-            "height": 1588
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/bc574448b47b24f6b5c10602ed8ef481.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/f6fb85e88d9b1e49d63c2c552edd6b15.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/e03785f4275dbc0d5d4e8a129a640814.png",
-            "width": 720,
-            "height": 1440
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 58015,
-      "artistId": 255,
-      "artistName": "CORTIS",
-      "artistShortName": "CORTIS",
-      "category": "Album",
-      "name": "[YOUTUBE GIFT] The 2nd EP [GREENGREEN] (Random)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/0c58f6aa4ef4bfaf00427c5acb35759b.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 19700,
-        "salePrice": 19700,
-        "supplyPrice": 19700,
-        "supplySalePrice": 19700,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-05-13T00:00:00+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 12,
-          "availableQuantity": 12
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t\t"
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-05-13T00:00:00+09:00",
-          "deliveryEndAt": "2026-05-20T00:00:00+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 114359,
-              "saleStockIds": [
-                114359
-              ],
-              "saleOptionName": "Random",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 19700,
-              "supplyOptionSalePrice": 19700
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 200,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/0c58f6aa4ef4bfaf00427c5acb35759b.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/e2fcd67ae0d45095a800f33d2fb980ae.png",
-            "width": 720,
-            "height": 1588
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/74be0d450d8d9d89d24c4dcb9a64b1c3.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c76d422dcfc6ba58639d7b32d2f6744c.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/84d1beabfd3d78391b01019e3524c51b.png",
-            "width": 720,
-            "height": 1440
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 57844,
-      "artistId": 255,
-      "artistName": "CORTIS",
-      "artistShortName": "CORTIS",
-      "category": "Album",
-      "name": "[RELEASE PARTY LIVE] The 2nd EP [GREENGREEN] (Set)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/c94ddd5814ba1c66582b55cb0a48d1e6.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 59100,
-        "salePrice": 59100,
-        "supplyPrice": 59100,
-        "supplySalePrice": 59100,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-05-12T00:01:00+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 4,
-          "availableQuantity": 4
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t",
-            "해당 상품은 [BRIDGE Ver., STREET Ver., STUDIO Ver.] 으로 구성된 세트 상품입니다."
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-05-12T00:01:00+09:00",
-          "deliveryEndAt": "2026-05-19T00:01:00+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 113999,
-              "saleStockIds": [
-                113999
-              ],
-              "saleOptionName": "Set",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 59100,
-              "supplyOptionSalePrice": 59100
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 550,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/c94ddd5814ba1c66582b55cb0a48d1e6.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/cc29a6b56186a5ec1396b81ba1d99906.png",
-            "width": 720,
-            "height": 2057
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/bc574448b47b24f6b5c10602ed8ef481.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/f6fb85e88d9b1e49d63c2c552edd6b15.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/e03785f4275dbc0d5d4e8a129a640814.png",
-            "width": 720,
-            "height": 1440
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 57843,
-      "artistId": 255,
-      "artistName": "CORTIS",
-      "artistShortName": "CORTIS",
-      "category": "Album",
-      "name": "[RELEASE PARTY LIVE] The 2nd EP [GREENGREEN] (Random)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/954bb5e73dbd207ed28a80afe5f9d1ea.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 19700,
-        "salePrice": 19700,
-        "supplyPrice": 19700,
-        "supplySalePrice": 19700,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-05-12T00:01:00+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 12,
-          "availableQuantity": 12
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t\t"
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-05-12T00:01:00+09:00",
-          "deliveryEndAt": "2026-05-19T00:01:00+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 113998,
-              "saleStockIds": [
-                113998
-              ],
-              "saleOptionName": "Random",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 19700,
-              "supplyOptionSalePrice": 19700
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 200,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/954bb5e73dbd207ed28a80afe5f9d1ea.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/1dd955f141b6056125b7148273a0485e.png",
-            "width": 720,
-            "height": 2057
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/74be0d450d8d9d89d24c4dcb9a64b1c3.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c76d422dcfc6ba58639d7b32d2f6744c.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/84d1beabfd3d78391b01019e3524c51b.png",
-            "width": 720,
-            "height": 1440
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 57562,
-      "artistId": 255,
-      "artistName": "CORTIS",
-      "artistShortName": "CORTIS",
-      "category": "Album",
-      "name": "[STUDIO CHOOM GIFT] The 2nd EP [GREENGREEN] (Set)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/c93250dfd96d960d4e9ae4abcf26dc27.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 59100,
-        "salePrice": 59100,
-        "supplyPrice": 59100,
-        "supplySalePrice": 59100,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-05-12T00:00:00+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 4,
-          "availableQuantity": 4
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t",
-            "해당 상품은 [BRIDGE Ver., STREET Ver., STUDIO Ver.] 으로 구성된 세트 상품입니다.",
-            "이벤트 내용에 기재된 상품 구매 시에는 스튜디오 춤 상품 구매자 혜택만 제공되며, Weverse Global 구매자 혜택 제공 기간 내에 구매하더라도 Weverse Global 구매자 혜택은 중복하여 제공되지 않습니다. 구매에 참고 부탁드립니다."
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-05-12T00:00:00+09:00",
-          "deliveryEndAt": "2026-05-19T00:00:00+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 113495,
-              "saleStockIds": [
-                113495
-              ],
-              "saleOptionName": "Set",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 59100,
-              "supplyOptionSalePrice": 59100
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 550,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/c93250dfd96d960d4e9ae4abcf26dc27.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/bae8c3c78f3c28ffc3b20d5b2ed7dbe5.png",
-            "width": 720,
-            "height": 3977
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/bc574448b47b24f6b5c10602ed8ef481.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/f6fb85e88d9b1e49d63c2c552edd6b15.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/e03785f4275dbc0d5d4e8a129a640814.png",
-            "width": 720,
-            "height": 1440
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 57561,
-      "artistId": 255,
-      "artistName": "CORTIS",
-      "artistShortName": "CORTIS",
-      "category": "Album",
-      "name": "[STUDIO CHOOM GIFT] The 2nd EP [GREENGREEN] (Random)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/a0f384d8b340b0d5c43694c78cc2d6ec.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 19700,
-        "salePrice": 19700,
-        "supplyPrice": 19700,
-        "supplySalePrice": 19700,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-05-12T00:00:00+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 12,
-          "availableQuantity": 12
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t\t",
-            "이벤트 내용에 기재된 상품 구매 시에는 스튜디오 춤 상품 구매자 혜택만 제공되며, Weverse Global 구매자 혜택 제공 기간 내에 구매하더라도 Weverse Global 구매자 혜택은 중복하여 제공되지 않습니다. 구매에 참고 부탁드립니다."
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-05-12T00:00:00+09:00",
-          "deliveryEndAt": "2026-05-19T00:00:00+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 113494,
-              "saleStockIds": [
-                113494
-              ],
-              "saleOptionName": "Random",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 19700,
-              "supplyOptionSalePrice": 19700
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 200,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/a0f384d8b340b0d5c43694c78cc2d6ec.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c6337bc5916e72d6eade353ebe010435.png",
-            "width": 720,
-            "height": 3977
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/74be0d450d8d9d89d24c4dcb9a64b1c3.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c76d422dcfc6ba58639d7b32d2f6744c.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/84d1beabfd3d78391b01019e3524c51b.png",
-            "width": 720,
-            "height": 1440
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 57564,
-      "artistId": 255,
-      "artistName": "CORTIS",
-      "artistShortName": "CORTIS",
-      "category": "Album",
-      "name": "[STUDIO CHOOM GIFT] The 2nd EP [GREENGREEN] (Weverse Albums ver.) (Set)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/7263f4c59950a6958315c679576361a1.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 49600,
-        "salePrice": 49600,
-        "supplyPrice": 49600,
-        "supplySalePrice": 49600,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-05-12T00:00:00+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 5,
-          "availableQuantity": 5
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t\t",
-            "해당 상품은 [Weverse Albums ver.] 4종으로 구성된 세트 상품입니다.\t",
-            "이벤트 내용에 기재된 상품 구매 시에는 스튜디오 춤 상품 구매자 혜택만 제공되며, Weverse Global 구매자 혜택 제공 기간 내에 구매하더라도 Weverse Global 구매자 혜택은 중복하여 제공되지 않습니다. 구매에 참고 부탁드립니다."
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-05-12T00:00:00+09:00",
-          "deliveryEndAt": "2026-05-19T00:00:00+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 113497,
-              "saleStockIds": [
-                113497
-              ],
-              "saleOptionName": "Set",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 49600,
-              "supplyOptionSalePrice": 49600
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 450,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/7263f4c59950a6958315c679576361a1.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a646f7c5db5d3e54faef9d93ed6c86b1.png",
-            "width": 720,
-            "height": 3977
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/806004b842ef2aa1a04ba844ecc48f88.png",
-            "width": 720,
-            "height": 1260
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/30c37925e613b084f35247881c5b2da5.png",
-            "width": 720,
-            "height": 1260
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/5131d0ebb9c3454166f2c0368e5cf0b8.png",
-            "width": 720,
-            "height": 1260
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/f7df5f80260a4065db62b71ec7c2aa99.png",
-            "width": 720,
-            "height": 1260
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 57563,
-      "artistId": 255,
-      "artistName": "CORTIS",
-      "artistShortName": "CORTIS",
-      "category": "Album",
-      "name": "[STUDIO CHOOM GIFT] The 2nd EP [GREENGREEN] (Weverse Albums ver.) (Random)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/149c32b558f1dc37f83e46ed8186d203.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 12400,
-        "salePrice": 12400,
-        "supplyPrice": 12400,
-        "supplySalePrice": 12400,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-05-12T00:00:00+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 20,
-          "availableQuantity": 20
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t\t",
-            "이벤트 내용에 기재된 상품 구매 시에는 스튜디오 춤 상품 구매자 혜택만 제공되며, Weverse Global 구매자 혜택 제공 기간 내에 구매하더라도 Weverse Global 구매자 혜택은 중복하여 제공되지 않습니다. 구매에 참고 부탁드립니다."
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-05-12T00:00:00+09:00",
-          "deliveryEndAt": "2026-05-19T00:00:00+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 113496,
-              "saleStockIds": [
-                113496
-              ],
-              "saleOptionName": "Random",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 12400,
-              "supplyOptionSalePrice": 12400
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 100,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/149c32b558f1dc37f83e46ed8186d203.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/891cbad013ead55a9029dcd4f8336ac3.png",
-            "width": 720,
-            "height": 3977
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/abb9c7d8dfcf3e86e1d14725d5a3c01e.png",
-            "width": 720,
-            "height": 1260
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/3558a4d35ff7d68f0ec1f94db5227091.png",
-            "width": 720,
-            "height": 1260
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/9498c8d9c5aa3d164afada103fb98b29.png",
-            "width": 720,
-            "height": 1260
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/4f86f57580fd61e4339b9825020adbcb.png",
-            "width": 720,
-            "height": 1260
           }
         ]
       }
