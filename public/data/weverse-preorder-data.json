@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-29T00:11:55.253Z",
+  "updatedAt": "2026-05-30T00:10:30.322Z",
   "artists": [
     {
       "artistId": 2,
@@ -868,14 +868,355 @@
   ],
   "products": [
     {
-      "saleId": 54189,
+      "saleId": 61652,
       "artistId": 2,
       "artistName": "BTS",
       "artistShortName": "BTS",
       "category": "Merch",
-      "name": "BTS OFFICIAL LIGHT STICK VER.4",
-      "status": "TO_BE_SOLD",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/b7c6a0dca150ebbb90e63f35b90fc915.png",
+      "name": "Wind Jacket (SWIM)",
+      "status": "SOLD_OUT",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/be0c3508884f6d3795f8403166ad2198.png",
+      "icons": [
+        "ONLY",
+        "PRE_ORDER"
+      ],
+      "emblems": [],
+      "price": {
+        "originalPrice": 129000,
+        "salePrice": 129000,
+        "supplyPrice": 129000,
+        "supplySalePrice": 129000,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "displayOriginalPrice": "",
+        "displaySalePrice": "",
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-08-18T00:00:07+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "OPTION"
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "최대 구매수량은 옵션별 2개입니다."
+          ]
+        },
+        "saleStartAt": "2026-05-26T17:00:00+09:00",
+        "preOrder": {
+          "deliveryStartAt": "2026-08-18T00:00:07+09:00",
+          "deliveryEndAt": "2026-08-25T00:00:07+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 122117,
+              "saleStockIds": [
+                122117
+              ],
+              "saleOptionName": "S",
+              "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            },
+            {
+              "saleStockId": 122118,
+              "saleStockIds": [
+                122118
+              ],
+              "saleOptionName": "M",
+              "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            },
+            {
+              "saleStockId": 122119,
+              "saleStockIds": [
+                122119
+              ],
+              "saleOptionName": "L",
+              "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            },
+            {
+              "saleStockId": 122120,
+              "saleStockIds": [
+                122120
+              ],
+              "saleOptionName": "XL",
+              "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 178,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "일반 상품의 경우, 영업일 기준 2-3일 이내 출고가 진행 됩니다.  출고 후, 배송 상황은 MY > 주문내역 > 주문내역 상세를 통해 조회 가능합니다.  예약 판매 상품의 경우 출시일로부터 출고 준비가 시작 됩니다.  도서 산간 지역의 경우, 추가 배송비가 발생되며, 배송기간이 증가 할 수 있습니다.  (권역별 3,000원 / 5,000원)",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 1200,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/be0c3508884f6d3795f8403166ad2198.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a39fe121602f0e177ac70f2f445703e6.png",
+            "width": 720,
+            "height": 5114
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/ea1381b0a333bce0ce016de0b75991b2.png",
+            "width": 720,
+            "height": 5202
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/37daab3f4988dbc07f48de38d354cd8c.png",
+            "width": 720,
+            "height": 4440
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/b3c6bd8cbafb8a3a7a6a17d0ad72a7d9.png",
+            "width": 720,
+            "height": 2322
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a7df97368af51573c540c822a0e56246.png",
+            "width": 720,
+            "height": 3839
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a47856d4a3c8cf1ada540df9f787011f.png",
+            "width": 720,
+            "height": 1305
+          }
+        ]
+      }
+    },
+    {
+      "saleId": 61653,
+      "artistId": 2,
+      "artistName": "BTS",
+      "artistShortName": "BTS",
+      "category": "Merch",
+      "name": "Wind Jacket (DIVE)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/d90ccebfb60b6e88f7826d7c6ab160af.png",
+      "icons": [
+        "ONLY",
+        "PRE_ORDER"
+      ],
+      "emblems": [],
+      "price": {
+        "originalPrice": 129000,
+        "salePrice": 129000,
+        "supplyPrice": 129000,
+        "supplySalePrice": 129000,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "displayOriginalPrice": "",
+        "displaySalePrice": "",
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-08-18T00:00:07+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "OPTION"
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "최대 구매수량은 옵션별 2개입니다."
+          ]
+        },
+        "saleStartAt": "2026-05-26T17:00:00+09:00",
+        "preOrder": {
+          "deliveryStartAt": "2026-08-18T00:00:07+09:00",
+          "deliveryEndAt": "2026-08-25T00:00:07+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 122121,
+              "saleStockIds": [
+                122121
+              ],
+              "saleOptionName": "S",
+              "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            },
+            {
+              "saleStockId": 122122,
+              "saleStockIds": [
+                122122
+              ],
+              "saleOptionName": "M",
+              "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            },
+            {
+              "saleStockId": 122123,
+              "saleStockIds": [
+                122123
+              ],
+              "saleOptionName": "L",
+              "isSoldOut": true,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            },
+            {
+              "saleStockId": 122124,
+              "saleStockIds": [
+                122124
+              ],
+              "saleOptionName": "XL",
+              "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 46,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "평균 배송 1-3일 소요",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 1200,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/d90ccebfb60b6e88f7826d7c6ab160af.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/53ae486f0c2e818e546e221cfd1773e7.png",
+            "width": 720,
+            "height": 3789
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/3deadc1cfdc9e520ab7e675b4033f424.png",
+            "width": 720,
+            "height": 5202
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/f55536da39a7c174b1ed753b6e83ed99.png",
+            "width": 720,
+            "height": 4543
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/e4f9eb0931063767dcd4dc637ff17f92.png",
+            "width": 720,
+            "height": 3839
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/6bfd72eaa090ed5deb3645f04f9e6449.png",
+            "width": 720,
+            "height": 1305
+          }
+        ]
+      }
+    },
+    {
+      "saleId": 61654,
+      "artistId": 2,
+      "artistName": "BTS",
+      "artistShortName": "BTS",
+      "category": "Merch",
+      "name": "Ball Cap (BLUE)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/fa18f742f2bad4ae92eb034e568f66d5.png",
       "icons": [
         "ONLY",
         "PRE_ORDER"
@@ -894,36 +1235,153 @@
         "displaySalePrice": "",
         "isTaxDeductible": false
       },
-      "deliveryDate": "2026-06-01T00:00:15+09:00",
+      "deliveryDate": "2026-08-18T00:00:07+09:00",
       "goodsType": "DELIVERY",
       "releaseCountryCode": "KR",
       "detail": {
         "goodsOrderLimit": {
           "orderLimitType": "GOODS",
-          "maxOrderQuantity": 1,
-          "availableQuantity": 1
+          "maxOrderQuantity": 2,
+          "availableQuantity": 2
         },
         "orderLimitInfo": {
           "descriptions": [
-            "본 제품은 디자인 및 제작 구조 특성상 설계 공차가 모두 동일하게 적용되어 제작됩니다. 해당 특성상 흔들림에 의한 미세한 움직임 또는 소리는 자연스러운 현상이며 이는 정상입니다.",
-            "계정당 최대 구매 수량은 1개입니다."
+            "최대 구매수량은 2개 입니다."
           ]
         },
-        "saleStartAt": "2026-05-29T12:00:00+09:00",
+        "saleStartAt": "2026-05-26T17:00:00+09:00",
         "preOrder": {
-          "deliveryStartAt": "2026-06-01T00:00:15+09:00",
-          "deliveryEndAt": "2026-06-08T00:00:15+09:00",
+          "deliveryStartAt": "2026-08-18T00:00:07+09:00",
+          "deliveryEndAt": "2026-08-25T00:00:07+09:00",
           "enablePreOrder": true
         },
         "option": {
           "optionSelectionType": "MULTIPLE",
           "options": [
             {
-              "saleStockId": 105260,
+              "saleStockId": 122125,
               "saleStockIds": [
-                105260
+                122125
               ],
-              "saleOptionName": "BTS OFFICIAL LIGHT STICK VER.4",
+              "saleOptionName": "ONE SIZE",
+              "isSoldOut": false,
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 49000,
+              "supplyOptionSalePrice": 49000
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 178,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "일반 상품의 경우, 영업일 기준 2-3일 이내 출고가 진행 됩니다.  출고 후, 배송 상황은 MY > 주문내역 > 주문내역 상세를 통해 조회 가능합니다.  예약 판매 상품의 경우 출시일로부터 출고 준비가 시작 됩니다.  도서 산간 지역의 경우, 추가 배송비가 발생되며, 배송기간이 증가 할 수 있습니다.  (권역별 3,000원 / 5,000원)",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 450,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/fa18f742f2bad4ae92eb034e568f66d5.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/0b21437a19b40ced886784170f37f7e4.png",
+            "width": 720,
+            "height": 720
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/69d0ef94db8bcbeb62994edcaa9ef316.png",
+            "width": 720,
+            "height": 6280
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/1a2de9c65ddfd46bed70912c432e1000.png",
+            "width": 720,
+            "height": 3014
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/bfd7a325ad8fe16a2e8f8b5d6c854425.jpg",
+            "width": 720,
+            "height": 2187
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a50edc88ac5cf66ce6a38316324736bd.png",
+            "width": 720,
+            "height": 1305
+          }
+        ]
+      }
+    },
+    {
+      "saleId": 61655,
+      "artistId": 2,
+      "artistName": "BTS",
+      "artistShortName": "BTS",
+      "category": "Merch",
+      "name": "Ball Cap (DENIM)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/1dd6293e1ddcd005fe5c150044a950e7.png",
+      "icons": [
+        "ONLY",
+        "PRE_ORDER"
+      ],
+      "emblems": [],
+      "price": {
+        "originalPrice": 49000,
+        "salePrice": 49000,
+        "supplyPrice": 49000,
+        "supplySalePrice": 49000,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "displayOriginalPrice": "",
+        "displaySalePrice": "",
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-08-18T00:00:07+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "GOODS",
+          "maxOrderQuantity": 2,
+          "availableQuantity": 2
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "최대 구매수량은 2개 입니다."
+          ]
+        },
+        "saleStartAt": "2026-05-26T17:00:00+09:00",
+        "preOrder": {
+          "deliveryStartAt": "2026-08-18T00:00:07+09:00",
+          "deliveryEndAt": "2026-08-25T00:00:07+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 122126,
+              "saleStockIds": [
+                122126
+              ],
+              "saleOptionName": "ONE SIZE",
               "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
@@ -955,41 +1413,36 @@
         },
         "earnedCash": 450,
         "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/b7c6a0dca150ebbb90e63f35b90fc915.png"
+          "https://cdn-contents.weverseshop.io/public/shop/1dd6293e1ddcd005fe5c150044a950e7.png"
         ],
         "detailImages": [
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/37556e86a26596733ffa49f2b3ed85b0.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/cf8aba931c2c71c43b895115c33441e9.png",
             "width": 720,
-            "height": 3306
+            "height": 720
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/8bf3835e131c7a774dad24ececb1f5bf.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/3bd1122d87f4cad78889090edc12968f.png",
             "width": 720,
-            "height": 2484
+            "height": 5579
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/0c1c6cd59aba72d871342536140cee9a.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/70d6b4dce9cf097c496e079184bf1c76.png",
             "width": 720,
-            "height": 3635
+            "height": 4410
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/530e14554936a33cd58fa88857ec28bb.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/8922cf89a634de53b8b928c1045f8a4e.jpg",
             "width": 720,
-            "height": 2232
+            "height": 1102
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/d903c7b4408a3b41f3dd47670c33d7a5.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a4b2290309e704e3320c3b798bb9c672.jpg",
             "width": 720,
-            "height": 2866
+            "height": 2187
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/51aab069bec07392596145edfcf72e07.jpg",
-            "width": 720,
-            "height": 4488
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/278d50f5ecaee4e6571dd78807b08c7e.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/089432dfae376e35faca93ec440d668c.png",
             "width": 720,
             "height": 1305
           }
@@ -1003,7 +1456,7 @@
       "artistShortName": "BTS",
       "category": "Merch",
       "name": "BTS OFFICIAL LIGHT STICK VER.4 CRADLE",
-      "status": "TO_BE_SOLD",
+      "status": "SALE",
       "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/ceb8e108eb0ee2002b75852ffdbc8d40.png",
       "icons": [
         "ONLY",
@@ -1121,7 +1574,7 @@
       "artistShortName": "BTS",
       "category": "Merch",
       "name": "BTS OFFICIAL LIGHT STICK VER.4 PARTS (BTS ver.)",
-      "status": "TO_BE_SOLD",
+      "status": "SALE",
       "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/1241aaa86fca8bed9fca7bf12db5c633.png",
       "icons": [
         "ONLY",
@@ -1229,7 +1682,7 @@
       "artistShortName": "BTS",
       "category": "Merch",
       "name": "BTS OFFICIAL LIGHT STICK VER.4 PARTS (ARMY ver.)",
-      "status": "TO_BE_SOLD",
+      "status": "SALE",
       "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/1c2a401f9b6a72cc849be22edf2c1bd3.png",
       "icons": [
         "ONLY",
@@ -1383,7 +1836,7 @@
                 121533
               ],
               "saleOptionName": "M",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 2
@@ -1649,7 +2102,7 @@
       "artistShortName": "BTS",
       "category": "Merch",
       "name": "Pants (DIVE)",
-      "status": "SALE",
+      "status": "SOLD_OUT",
       "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/d2ae8109cfd784dab7c66d342bd8c0c9.png",
       "icons": [
         "ONLY",
@@ -1771,173 +2224,6 @@
           },
           {
             "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/954181276728b0db3afee7abd8385f59.png",
-            "width": 720,
-            "height": 1305
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 61401,
-      "artistId": 2,
-      "artistName": "BTS",
-      "artistShortName": "BTS",
-      "category": "Merch",
-      "name": "Shorts (DIVE)",
-      "status": "SOLD_OUT",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/7a9bd8e85b410bdd80b4bb16b72b99d4.png",
-      "icons": [
-        "ONLY",
-        "PRE_ORDER"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 85000,
-        "salePrice": 85000,
-        "supplyPrice": 85000,
-        "supplySalePrice": 85000,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "displayOriginalPrice": "",
-        "displaySalePrice": "",
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-07-22T00:00:07+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "OPTION"
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "최대 구매수량은 옵션별 2개입니다."
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-07-22T00:00:07+09:00",
-          "deliveryEndAt": "2026-07-29T00:00:07+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 121545,
-              "saleStockIds": [
-                121545
-              ],
-              "saleOptionName": "S",
-              "isSoldOut": true,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 85000,
-              "supplyOptionSalePrice": 85000
-            },
-            {
-              "saleStockId": 121546,
-              "saleStockIds": [
-                121546
-              ],
-              "saleOptionName": "M",
-              "isSoldOut": true,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 85000,
-              "supplyOptionSalePrice": 85000
-            },
-            {
-              "saleStockId": 121547,
-              "saleStockIds": [
-                121547
-              ],
-              "saleOptionName": "L",
-              "isSoldOut": true,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 85000,
-              "supplyOptionSalePrice": 85000
-            },
-            {
-              "saleStockId": 121548,
-              "saleStockIds": [
-                121548
-              ],
-              "saleOptionName": "XL",
-              "isSoldOut": true,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 85000,
-              "supplyOptionSalePrice": 85000
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 46,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 800,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/7a9bd8e85b410bdd80b4bb16b72b99d4.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/af89e3a84d091b3d4d574f2e6ce98ea5.png",
-            "width": 720,
-            "height": 4726
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/199131b71372a901098c6317cdf0eb7f.png",
-            "width": 720,
-            "height": 4362
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a065e5f1542a8af95f3c2bf66e23631d.png",
-            "width": 720,
-            "height": 3490
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/53fe5fc58fb0a8953cab4c81ca61f268.png",
-            "width": 720,
-            "height": 2984
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/638780f40cb499f3d76262ed08e3cb54.png",
             "width": 720,
             "height": 1305
           }
@@ -2169,24 +2455,24 @@
       }
     },
     {
-      "saleId": 61422,
+      "saleId": 61401,
       "artistId": 2,
       "artistName": "BTS",
       "artistShortName": "BTS",
       "category": "Merch",
-      "name": "Wind Jacket (SWIM)",
+      "name": "Shorts (DIVE)",
       "status": "SOLD_OUT",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/be0c3508884f6d3795f8403166ad2198.png",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/7a9bd8e85b410bdd80b4bb16b72b99d4.png",
       "icons": [
         "ONLY",
         "PRE_ORDER"
       ],
       "emblems": [],
       "price": {
-        "originalPrice": 129000,
-        "salePrice": 129000,
-        "supplyPrice": 129000,
-        "supplySalePrice": 129000,
+        "originalPrice": 85000,
+        "salePrice": 85000,
+        "supplyPrice": 85000,
+        "supplySalePrice": 85000,
         "discountPercent": 0,
         "isDiscountDisplay": false,
         "isTaxIncluded": false,
@@ -2195,7 +2481,7 @@
         "displaySalePrice": "",
         "isTaxDeductible": false
       },
-      "deliveryDate": "2026-07-31T00:00:07+09:00",
+      "deliveryDate": "2026-07-22T00:00:07+09:00",
       "goodsType": "DELIVERY",
       "releaseCountryCode": "KR",
       "detail": {
@@ -2208,17 +2494,17 @@
           ]
         },
         "preOrder": {
-          "deliveryStartAt": "2026-07-31T00:00:07+09:00",
-          "deliveryEndAt": "2026-08-07T00:00:07+09:00",
+          "deliveryStartAt": "2026-07-22T00:00:07+09:00",
+          "deliveryEndAt": "2026-07-29T00:00:07+09:00",
           "enablePreOrder": true
         },
         "option": {
           "optionSelectionType": "MULTIPLE",
           "options": [
             {
-              "saleStockId": 121605,
+              "saleStockId": 121545,
               "saleStockIds": [
-                121605
+                121545
               ],
               "saleOptionName": "S",
               "isSoldOut": false,
@@ -2228,13 +2514,13 @@
               },
               "variantOptionLocation": [],
               "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
+              "optionSalePrice": 85000,
+              "supplyOptionSalePrice": 85000
             },
             {
-              "saleStockId": 121606,
+              "saleStockId": 121546,
               "saleStockIds": [
-                121606
+                121546
               ],
               "saleOptionName": "M",
               "isSoldOut": false,
@@ -2244,13 +2530,13 @@
               },
               "variantOptionLocation": [],
               "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
+              "optionSalePrice": 85000,
+              "supplyOptionSalePrice": 85000
             },
             {
-              "saleStockId": 121607,
+              "saleStockId": 121547,
               "saleStockIds": [
-                121607
+                121547
               ],
               "saleOptionName": "L",
               "isSoldOut": false,
@@ -2260,13 +2546,13 @@
               },
               "variantOptionLocation": [],
               "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
+              "optionSalePrice": 85000,
+              "supplyOptionSalePrice": 85000
             },
             {
-              "saleStockId": 121608,
+              "saleStockId": 121548,
               "saleStockIds": [
-                121608
+                121548
               ],
               "saleOptionName": "XL",
               "isSoldOut": false,
@@ -2276,297 +2562,8 @@
               },
               "variantOptionLocation": [],
               "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 178,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "일반 상품의 경우, 영업일 기준 2-3일 이내 출고가 진행 됩니다.  출고 후, 배송 상황은 MY > 주문내역 > 주문내역 상세를 통해 조회 가능합니다.  예약 판매 상품의 경우 출시일로부터 출고 준비가 시작 됩니다.  도서 산간 지역의 경우, 추가 배송비가 발생되며, 배송기간이 증가 할 수 있습니다.  (권역별 3,000원 / 5,000원)",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 1200,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/be0c3508884f6d3795f8403166ad2198.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a39fe121602f0e177ac70f2f445703e6.png",
-            "width": 720,
-            "height": 5114
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/ea1381b0a333bce0ce016de0b75991b2.png",
-            "width": 720,
-            "height": 5202
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/37daab3f4988dbc07f48de38d354cd8c.png",
-            "width": 720,
-            "height": 4440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/b3c6bd8cbafb8a3a7a6a17d0ad72a7d9.png",
-            "width": 720,
-            "height": 2322
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a7df97368af51573c540c822a0e56246.png",
-            "width": 720,
-            "height": 3839
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a47856d4a3c8cf1ada540df9f787011f.png",
-            "width": 720,
-            "height": 1305
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 61553,
-      "artistId": 2,
-      "artistName": "BTS",
-      "artistShortName": "BTS",
-      "category": "Merch",
-      "name": "Ball Cap (BLUE)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/fa18f742f2bad4ae92eb034e568f66d5.png",
-      "icons": [
-        "ONLY",
-        "PRE_ORDER"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 49000,
-        "salePrice": 49000,
-        "supplyPrice": 49000,
-        "supplySalePrice": 49000,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "displayOriginalPrice": "",
-        "displaySalePrice": "",
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-07-31T00:00:07+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 2,
-          "availableQuantity": 2
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "최대 구매수량은 2개 입니다."
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-07-31T00:00:07+09:00",
-          "deliveryEndAt": "2026-08-07T00:00:07+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 121913,
-              "saleStockIds": [
-                121913
-              ],
-              "saleOptionName": "ONE SIZE",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 49000,
-              "supplyOptionSalePrice": 49000
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 178,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "일반 상품의 경우, 영업일 기준 2-3일 이내 출고가 진행 됩니다.  출고 후, 배송 상황은 MY > 주문내역 > 주문내역 상세를 통해 조회 가능합니다.  예약 판매 상품의 경우 출시일로부터 출고 준비가 시작 됩니다.  도서 산간 지역의 경우, 추가 배송비가 발생되며, 배송기간이 증가 할 수 있습니다.  (권역별 3,000원 / 5,000원)",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 450,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/fa18f742f2bad4ae92eb034e568f66d5.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/0b21437a19b40ced886784170f37f7e4.png",
-            "width": 720,
-            "height": 720
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/69d0ef94db8bcbeb62994edcaa9ef316.png",
-            "width": 720,
-            "height": 6280
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/1a2de9c65ddfd46bed70912c432e1000.png",
-            "width": 720,
-            "height": 3014
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/bfd7a325ad8fe16a2e8f8b5d6c854425.jpg",
-            "width": 720,
-            "height": 2187
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a50edc88ac5cf66ce6a38316324736bd.png",
-            "width": 720,
-            "height": 1305
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 61552,
-      "artistId": 2,
-      "artistName": "BTS",
-      "artistShortName": "BTS",
-      "category": "Merch",
-      "name": "Wind Jacket (DIVE)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/d90ccebfb60b6e88f7826d7c6ab160af.png",
-      "icons": [
-        "ONLY",
-        "PRE_ORDER"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 129000,
-        "salePrice": 129000,
-        "supplyPrice": 129000,
-        "supplySalePrice": 129000,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "displayOriginalPrice": "",
-        "displaySalePrice": "",
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-07-31T00:00:07+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "OPTION"
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "최대 구매수량은 옵션별 2개입니다."
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-07-31T00:00:07+09:00",
-          "deliveryEndAt": "2026-08-07T00:00:07+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 121909,
-              "saleStockIds": [
-                121909
-              ],
-              "saleOptionName": "S",
-              "isSoldOut": true,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
-            },
-            {
-              "saleStockId": 121910,
-              "saleStockIds": [
-                121910
-              ],
-              "saleOptionName": "M",
-              "isSoldOut": true,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
-            },
-            {
-              "saleStockId": 121911,
-              "saleStockIds": [
-                121911
-              ],
-              "saleOptionName": "L",
-              "isSoldOut": false,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
-            },
-            {
-              "saleStockId": 121912,
-              "saleStockIds": [
-                121912
-              ],
-              "saleOptionName": "XL",
-              "isSoldOut": false,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
+              "optionSalePrice": 85000,
+              "supplyOptionSalePrice": 85000
             }
           ],
           "hasOptionAddPrice": false,
@@ -2591,33 +2588,33 @@
             "isValidShippingCountry": true
           }
         },
-        "earnedCash": 1200,
+        "earnedCash": 800,
         "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/d90ccebfb60b6e88f7826d7c6ab160af.png"
+          "https://cdn-contents.weverseshop.io/public/shop/7a9bd8e85b410bdd80b4bb16b72b99d4.png"
         ],
         "detailImages": [
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/53ae486f0c2e818e546e221cfd1773e7.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/af89e3a84d091b3d4d574f2e6ce98ea5.png",
             "width": 720,
-            "height": 3789
+            "height": 4726
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/3deadc1cfdc9e520ab7e675b4033f424.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/199131b71372a901098c6317cdf0eb7f.png",
             "width": 720,
-            "height": 5202
+            "height": 4362
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/f55536da39a7c174b1ed753b6e83ed99.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a065e5f1542a8af95f3c2bf66e23631d.png",
             "width": 720,
-            "height": 4543
+            "height": 3490
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/e4f9eb0931063767dcd4dc637ff17f92.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/53fe5fc58fb0a8953cab4c81ca61f268.png",
             "width": 720,
-            "height": 3839
+            "height": 2984
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/6bfd72eaa090ed5deb3645f04f9e6449.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/638780f40cb499f3d76262ed08e3cb54.png",
             "width": 720,
             "height": 1305
           }
@@ -2625,14 +2622,14 @@
       }
     },
     {
-      "saleId": 61554,
+      "saleId": 54189,
       "artistId": 2,
       "artistName": "BTS",
       "artistShortName": "BTS",
       "category": "Merch",
-      "name": "Ball Cap (DENIM)",
+      "name": "BTS OFFICIAL LIGHT STICK VER.4",
       "status": "SOLD_OUT",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/1dd6293e1ddcd005fe5c150044a950e7.png",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/b7c6a0dca150ebbb90e63f35b90fc915.png",
       "icons": [
         "ONLY",
         "PRE_ORDER"
@@ -2651,34 +2648,36 @@
         "displaySalePrice": "",
         "isTaxDeductible": false
       },
-      "deliveryDate": "2026-07-31T00:00:07+09:00",
+      "deliveryDate": "2026-06-01T00:00:15+09:00",
       "goodsType": "DELIVERY",
       "releaseCountryCode": "KR",
       "detail": {
         "goodsOrderLimit": {
           "orderLimitType": "GOODS",
-          "maxOrderQuantity": 2,
-          "availableQuantity": 2
+          "maxOrderQuantity": 1,
+          "availableQuantity": 1
         },
         "orderLimitInfo": {
           "descriptions": [
-            "최대 구매수량은 2개 입니다."
+            "본 제품은 디자인 및 제작 구조 특성상 설계 공차가 모두 동일하게 적용되어 제작됩니다. 해당 특성상 흔들림에 의한 미세한 움직임 또는 소리는 자연스러운 현상이며 이는 정상입니다.",
+            "계정당 최대 구매 수량은 1개입니다."
           ]
         },
+        "saleStartAt": "2026-05-29T12:00:00+09:00",
         "preOrder": {
-          "deliveryStartAt": "2026-07-31T00:00:07+09:00",
-          "deliveryEndAt": "2026-08-07T00:00:07+09:00",
+          "deliveryStartAt": "2026-06-01T00:00:15+09:00",
+          "deliveryEndAt": "2026-06-08T00:00:15+09:00",
           "enablePreOrder": true
         },
         "option": {
           "optionSelectionType": "MULTIPLE",
           "options": [
             {
-              "saleStockId": 121914,
+              "saleStockId": 105260,
               "saleStockIds": [
-                121914
+                105260
               ],
-              "saleOptionName": "ONE SIZE",
+              "saleOptionName": "BTS OFFICIAL LIGHT STICK VER.4",
               "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
@@ -2710,36 +2709,41 @@
         },
         "earnedCash": 450,
         "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/1dd6293e1ddcd005fe5c150044a950e7.png"
+          "https://cdn-contents.weverseshop.io/public/shop/b7c6a0dca150ebbb90e63f35b90fc915.png"
         ],
         "detailImages": [
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/cf8aba931c2c71c43b895115c33441e9.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/37556e86a26596733ffa49f2b3ed85b0.jpg",
             "width": 720,
-            "height": 720
+            "height": 3306
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/3bd1122d87f4cad78889090edc12968f.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/8bf3835e131c7a774dad24ececb1f5bf.jpg",
             "width": 720,
-            "height": 5579
+            "height": 2484
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/70d6b4dce9cf097c496e079184bf1c76.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/0c1c6cd59aba72d871342536140cee9a.jpg",
             "width": 720,
-            "height": 4410
+            "height": 3635
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/8922cf89a634de53b8b928c1045f8a4e.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/530e14554936a33cd58fa88857ec28bb.jpg",
             "width": 720,
-            "height": 1102
+            "height": 2232
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a4b2290309e704e3320c3b798bb9c672.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/d903c7b4408a3b41f3dd47670c33d7a5.jpg",
             "width": 720,
-            "height": 2187
+            "height": 2866
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/089432dfae376e35faca93ec440d668c.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/51aab069bec07392596145edfcf72e07.jpg",
+            "width": 720,
+            "height": 4488
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/278d50f5ecaee4e6571dd78807b08c7e.png",
             "width": 720,
             "height": 1305
           }
@@ -7326,7 +7330,7 @@
       "artistShortName": "BTS",
       "category": "Tour Merch",
       "name": "[BTS X Urban Sophistication] Souvenir Bottle",
-      "status": "SALE",
+      "status": "SOLD_OUT",
       "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/4bb3bb10b3c1d8448e7213a554b16122.png",
       "icons": [
         "PRE_ORDER"
@@ -7345,7 +7349,7 @@
         "displaySalePrice": "",
         "isTaxDeductible": false
       },
-      "deliveryDate": "2026-06-01T00:00:07+09:00",
+      "deliveryDate": "2026-06-09T00:00:09+09:00",
       "goodsType": "DELIVERY",
       "releaseCountryCode": "KR",
       "detail": {
@@ -7361,8 +7365,8 @@
         },
         "saleStartAt": "2026-03-30T18:00:00+09:00",
         "preOrder": {
-          "deliveryStartAt": "2026-06-01T00:00:07+09:00",
-          "deliveryEndAt": "2026-06-08T00:00:07+09:00",
+          "deliveryStartAt": "2026-06-09T00:00:09+09:00",
+          "deliveryEndAt": "2026-06-16T00:00:09+09:00",
           "enablePreOrder": true
         },
         "option": {
@@ -9197,8 +9201,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3240,
-                3241
+                3241,
+                3240
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -9235,8 +9239,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3245,
-                3244
+                3244,
+                3245
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -9254,8 +9258,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3247,
-                3246
+                3246,
+                3247
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -9292,8 +9296,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3250,
-                3251
+                3251,
+                3250
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -9311,8 +9315,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3253,
-                3252
+                3252,
+                3253
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -9349,8 +9353,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3256,
-                3257
+                3257,
+                3256
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -9368,8 +9372,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3259,
-                3258
+                3258,
+                3259
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -9387,8 +9391,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3260,
-                3261
+                3261,
+                3260
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -9406,8 +9410,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3263,
-                3262
+                3262,
+                3263
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -9444,8 +9448,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3266,
-                3267
+                3267,
+                3266
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -23010,7 +23014,7 @@
                 112029
               ],
               "saleOptionName": "CHANYEOL (YEOLDAENGGGE)",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -31903,8 +31907,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3166,
-                3167
+                3167,
+                3166
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31941,8 +31945,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3171,
-                3170
+                3170,
+                3171
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31979,8 +31983,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3174,
-                3175
+                3175,
+                3174
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -31998,8 +32002,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3176,
-                3177
+                3177,
+                3176
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32017,8 +32021,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3178,
-                3179
+                3179,
+                3178
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32036,8 +32040,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3180,
-                3181
+                3181,
+                3180
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32131,8 +32135,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3191,
-                3190
+                3190,
+                3191
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32150,8 +32154,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3193,
-                3192
+                3192,
+                3193
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32169,8 +32173,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3195,
-                3194
+                3194,
+                3195
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32188,8 +32192,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3197,
-                3196
+                3196,
+                3197
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32207,8 +32211,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3199,
-                3198
+                3198,
+                3199
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32226,8 +32230,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3200,
-                3201
+                3201,
+                3200
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32321,8 +32325,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3211,
-                3210
+                3210,
+                3211
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -45670,7 +45674,7 @@
                 110378
               ],
               "saleOptionName": "NCT DREAM PHOTOBOOK [Ro drøm] JAEMIN ver.",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 42000,
@@ -62991,14 +62995,14 @@
                 114686
               ],
               "saleOptionName": "M SIZE / SION",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4551,
-                4550
+                4550,
+                4551
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -63035,8 +63039,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4555,
-                4554
+                4554,
+                4555
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -63073,8 +63077,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4558,
-                4559
+                4559,
+                4558
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -63130,8 +63134,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4564,
-                4565
+                4565,
+                4564
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -63256,7 +63260,7 @@
                     4563
                   ],
                   "variantOptionName": "SION",
-                  "isAvailable": false
+                  "isAvailable": true
                 },
                 {
                   "variantOptionIds": [
@@ -63498,8 +63502,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4527,
-                4526
+                4526,
+                4527
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -63536,8 +63540,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4530,
-                4531
+                4531,
+                4530
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -63574,8 +63578,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4534,
-                4535
+                4535,
+                4534
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -63612,8 +63616,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4539,
-                4538
+                4538,
+                4539
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -63669,8 +63673,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4544,
-                4545
+                4545,
+                4544
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -63688,8 +63692,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4546,
-                4547
+                4547,
+                4546
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -66758,7 +66762,7 @@
       "artistShortName": "TWS",
       "category": "Merch",
       "name": "YOUNGJAE'S FAVORITE BOX",
-      "status": "TO_BE_SOLD",
+      "status": "SOLD_OUT",
       "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/0f542672fe33857399c683b7094bf769.png",
       "icons": [
         "ONLY",
@@ -68303,7 +68307,7 @@
                 118751
               ],
               "saleOptionName": "SHINYU VER.",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 2
@@ -68351,7 +68355,7 @@
                 118754
               ],
               "saleOptionName": "HANJIN VER.",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 2
