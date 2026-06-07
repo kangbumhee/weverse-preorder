@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T00:07:22.498Z",
+  "updatedAt": "2026-06-07T00:04:38.845Z",
   "artists": [
     {
       "artistId": 2,
@@ -6497,8 +6497,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3241,
-                3240
+                3240,
+                3241
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -6516,8 +6516,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3243,
-                3242
+                3242,
+                3243
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -6554,8 +6554,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3246,
-                3247
+                3247,
+                3246
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -6573,8 +6573,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3248,
-                3249
+                3249,
+                3248
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -6630,8 +6630,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3254,
-                3255
+                3255,
+                3254
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -6649,8 +6649,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3256,
-                3257
+                3257,
+                3256
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -6668,8 +6668,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3259,
-                3258
+                3258,
+                3259
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -6687,8 +6687,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3260,
-                3261
+                3261,
+                3260
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -6706,8 +6706,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3263,
-                3262
+                3262,
+                3263
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -14027,6 +14027,1054 @@
       }
     },
     {
+      "saleId": 61692,
+      "artistId": 25,
+      "artistName": "TREASURE",
+      "artistShortName": "TREASURE",
+      "category": "Album",
+      "name": "[VIDEO CALL FANSIGN] 4th MINI ALBUM [NEW WAV] RAW VER. (CHOI HYUN SUK)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/dc711039e3536ec7d01e779aae080ce2.png",
+      "icons": [
+        "PRE_ORDER",
+        "BENEFIT"
+      ],
+      "emblems": [
+        "FAN_EVENT"
+      ],
+      "price": {
+        "originalPrice": 12600,
+        "salePrice": 12600,
+        "supplyPrice": 12600,
+        "supplySalePrice": 12600,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "displayOriginalPrice": "",
+        "displaySalePrice": "",
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-06-09T12:00:00+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "GOODS",
+          "maxOrderQuantity": 30,
+          "availableQuantity": 30
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "해당 상품은 Weverse Global 상품입니다.\t\t",
+            "해당 상품은 [VIDEO CALL FANSIGN] 이벤트 응모 전용 상품입니다.",
+            "본 상품은 이벤트 응모권이 포함된 상품입니다. 이벤트 응모 시 당첨자 발표 후에는 취소 및 환불이 불가하므로 신중한 구매를 부탁드립니다.\t\t\t"
+          ]
+        },
+        "preOrder": {
+          "deliveryStartAt": "2026-06-09T12:00:00+09:00",
+          "deliveryEndAt": "2026-06-16T12:00:00+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 122177,
+              "saleStockIds": [
+                122177
+              ],
+              "saleOptionName": "CHOI HYUN SUK",
+              "isSoldOut": false,
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 12600,
+              "supplyOptionSalePrice": 12600
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 31,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "평균 배송 1-3일 소요",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 100,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/dc711039e3536ec7d01e779aae080ce2.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/5fd029e90ed8f5a52af29e587110f84b.png",
+            "width": 720,
+            "height": 1565
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/71d7cb47e6cd88a2c5a1b1aec7903d75.png",
+            "width": 720,
+            "height": 1697
+          }
+        ]
+      }
+    },
+    {
+      "saleId": 61693,
+      "artistId": 25,
+      "artistName": "TREASURE",
+      "artistShortName": "TREASURE",
+      "category": "Album",
+      "name": "[VIDEO CALL FANSIGN] 4th MINI ALBUM [NEW WAV] RAW VER. (JIHOON)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/63de8bf7aca7ba9f86be2ce2c7251625.png",
+      "icons": [
+        "PRE_ORDER",
+        "BENEFIT"
+      ],
+      "emblems": [
+        "FAN_EVENT"
+      ],
+      "price": {
+        "originalPrice": 12600,
+        "salePrice": 12600,
+        "supplyPrice": 12600,
+        "supplySalePrice": 12600,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "displayOriginalPrice": "",
+        "displaySalePrice": "",
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-06-09T12:00:00+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "GOODS",
+          "maxOrderQuantity": 30,
+          "availableQuantity": 30
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "해당 상품은 Weverse Global 상품입니다.\t\t",
+            "해당 상품은 [VIDEO CALL FANSIGN] 이벤트 응모 전용 상품입니다.",
+            "본 상품은 이벤트 응모권이 포함된 상품입니다. 이벤트 응모 시 당첨자 발표 후에는 취소 및 환불이 불가하므로 신중한 구매를 부탁드립니다.\t\t\t"
+          ]
+        },
+        "preOrder": {
+          "deliveryStartAt": "2026-06-09T12:00:00+09:00",
+          "deliveryEndAt": "2026-06-16T12:00:00+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 122178,
+              "saleStockIds": [
+                122178
+              ],
+              "saleOptionName": "JIHOON",
+              "isSoldOut": false,
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 12600,
+              "supplyOptionSalePrice": 12600
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 31,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "평균 배송 1-3일 소요",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 100,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/63de8bf7aca7ba9f86be2ce2c7251625.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/78cff013eaa3b5e7da4e36325b285e4e.png",
+            "width": 720,
+            "height": 1565
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/b441eb1e6e8621e6dc122fad88cfb61c.png",
+            "width": 720,
+            "height": 1697
+          }
+        ]
+      }
+    },
+    {
+      "saleId": 61694,
+      "artistId": 25,
+      "artistName": "TREASURE",
+      "artistShortName": "TREASURE",
+      "category": "Album",
+      "name": "[VIDEO CALL FANSIGN] 4th MINI ALBUM [NEW WAV] RAW VER. (YOSHI)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/6d6fe9e17e41959ab7371c9f16f28748.png",
+      "icons": [
+        "PRE_ORDER",
+        "BENEFIT"
+      ],
+      "emblems": [
+        "FAN_EVENT"
+      ],
+      "price": {
+        "originalPrice": 12600,
+        "salePrice": 12600,
+        "supplyPrice": 12600,
+        "supplySalePrice": 12600,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "displayOriginalPrice": "",
+        "displaySalePrice": "",
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-06-09T12:00:00+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "GOODS",
+          "maxOrderQuantity": 30,
+          "availableQuantity": 30
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "해당 상품은 Weverse Global 상품입니다.\t\t",
+            "해당 상품은 [VIDEO CALL FANSIGN] 이벤트 응모 전용 상품입니다.",
+            "본 상품은 이벤트 응모권이 포함된 상품입니다. 이벤트 응모 시 당첨자 발표 후에는 취소 및 환불이 불가하므로 신중한 구매를 부탁드립니다."
+          ]
+        },
+        "preOrder": {
+          "deliveryStartAt": "2026-06-09T12:00:00+09:00",
+          "deliveryEndAt": "2026-06-16T12:00:00+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 122179,
+              "saleStockIds": [
+                122179
+              ],
+              "saleOptionName": "YOSHI",
+              "isSoldOut": false,
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 12600,
+              "supplyOptionSalePrice": 12600
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 31,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "평균 배송 1-3일 소요",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 100,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/6d6fe9e17e41959ab7371c9f16f28748.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a9e9fb2a0623ef7ed11a10fa14948570.png",
+            "width": 720,
+            "height": 1565
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/517f267b08ccbb1232e2408ffa677d8e.png",
+            "width": 720,
+            "height": 1697
+          }
+        ]
+      }
+    },
+    {
+      "saleId": 61695,
+      "artistId": 25,
+      "artistName": "TREASURE",
+      "artistShortName": "TREASURE",
+      "category": "Album",
+      "name": "[VIDEO CALL FANSIGN] 4th MINI ALBUM [NEW WAV] RAW VER. (JUNKYU)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/8c6be72a87c2ae92d11ca92797d9942a.png",
+      "icons": [
+        "PRE_ORDER",
+        "BENEFIT"
+      ],
+      "emblems": [
+        "FAN_EVENT"
+      ],
+      "price": {
+        "originalPrice": 12600,
+        "salePrice": 12600,
+        "supplyPrice": 12600,
+        "supplySalePrice": 12600,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "displayOriginalPrice": "",
+        "displaySalePrice": "",
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-06-09T12:00:00+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "GOODS",
+          "maxOrderQuantity": 30,
+          "availableQuantity": 30
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "해당 상품은 Weverse Global 상품입니다.\t\t",
+            "해당 상품은 [VIDEO CALL FANSIGN] 이벤트 응모 전용 상품입니다.",
+            "본 상품은 이벤트 응모권이 포함된 상품입니다. 이벤트 응모 시 당첨자 발표 후에는 취소 및 환불이 불가하므로 신중한 구매를 부탁드립니다."
+          ]
+        },
+        "preOrder": {
+          "deliveryStartAt": "2026-06-09T12:00:00+09:00",
+          "deliveryEndAt": "2026-06-16T12:00:00+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 122180,
+              "saleStockIds": [
+                122180
+              ],
+              "saleOptionName": "JUNKYU",
+              "isSoldOut": false,
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 12600,
+              "supplyOptionSalePrice": 12600
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 31,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "평균 배송 1-3일 소요",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 100,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/8c6be72a87c2ae92d11ca92797d9942a.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/655b5a7a729b41be26efa17003ab5df9.png",
+            "width": 720,
+            "height": 1565
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/1db8a27bd46a3055f6fd3799d5c80c2e.png",
+            "width": 720,
+            "height": 1697
+          }
+        ]
+      }
+    },
+    {
+      "saleId": 61696,
+      "artistId": 25,
+      "artistName": "TREASURE",
+      "artistShortName": "TREASURE",
+      "category": "Album",
+      "name": "[VIDEO CALL FANSIGN] 4th MINI ALBUM [NEW WAV] RAW VER. (YOON JAE HYUK)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/5f230f37ec47da0b9043776f6742deb0.png",
+      "icons": [
+        "PRE_ORDER",
+        "BENEFIT"
+      ],
+      "emblems": [
+        "FAN_EVENT"
+      ],
+      "price": {
+        "originalPrice": 12600,
+        "salePrice": 12600,
+        "supplyPrice": 12600,
+        "supplySalePrice": 12600,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "displayOriginalPrice": "",
+        "displaySalePrice": "",
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-06-09T12:00:00+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "GOODS",
+          "maxOrderQuantity": 30,
+          "availableQuantity": 30
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "해당 상품은 Weverse Global 상품입니다.\t\t",
+            "해당 상품은 [VIDEO CALL FANSIGN] 이벤트 응모 전용 상품입니다.",
+            "본 상품은 이벤트 응모권이 포함된 상품입니다. 이벤트 응모 시 당첨자 발표 후에는 취소 및 환불이 불가하므로 신중한 구매를 부탁드립니다."
+          ]
+        },
+        "preOrder": {
+          "deliveryStartAt": "2026-06-09T12:00:00+09:00",
+          "deliveryEndAt": "2026-06-16T12:00:00+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 122181,
+              "saleStockIds": [
+                122181
+              ],
+              "saleOptionName": "YOON JAE HYUK",
+              "isSoldOut": false,
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 12600,
+              "supplyOptionSalePrice": 12600
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 31,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "평균 배송 1-3일 소요",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 100,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/5f230f37ec47da0b9043776f6742deb0.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/7949c008c8343e9e7e457c295aea37df.png",
+            "width": 720,
+            "height": 1565
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/b268507a43c079d7f603f3fb6db58c51.png",
+            "width": 720,
+            "height": 1697
+          }
+        ]
+      }
+    },
+    {
+      "saleId": 61697,
+      "artistId": 25,
+      "artistName": "TREASURE",
+      "artistShortName": "TREASURE",
+      "category": "Album",
+      "name": "[VIDEO CALL FANSIGN] 4th MINI ALBUM [NEW WAV] RAW VER. (ASAHI)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/dcb68da7a1e105017c6ac6e96bad78fe.png",
+      "icons": [
+        "PRE_ORDER",
+        "BENEFIT"
+      ],
+      "emblems": [
+        "FAN_EVENT"
+      ],
+      "price": {
+        "originalPrice": 12600,
+        "salePrice": 12600,
+        "supplyPrice": 12600,
+        "supplySalePrice": 12600,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "displayOriginalPrice": "",
+        "displaySalePrice": "",
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-06-09T12:00:00+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "GOODS",
+          "maxOrderQuantity": 30,
+          "availableQuantity": 30
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "해당 상품은 Weverse Global 상품입니다.\t\t",
+            "해당 상품은 [VIDEO CALL FANSIGN] 이벤트 응모 전용 상품입니다.",
+            "본 상품은 이벤트 응모권이 포함된 상품입니다. 이벤트 응모 시 당첨자 발표 후에는 취소 및 환불이 불가하므로 신중한 구매를 부탁드립니다."
+          ]
+        },
+        "preOrder": {
+          "deliveryStartAt": "2026-06-09T12:00:00+09:00",
+          "deliveryEndAt": "2026-06-16T12:00:00+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 122182,
+              "saleStockIds": [
+                122182
+              ],
+              "saleOptionName": "ASAHI",
+              "isSoldOut": false,
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 12600,
+              "supplyOptionSalePrice": 12600
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 31,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "평균 배송 1-3일 소요",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 100,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/dcb68da7a1e105017c6ac6e96bad78fe.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/9af6534f7928084b6fefadf1400454d1.png",
+            "width": 720,
+            "height": 1565
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/8a46247277907675b89ca1d78f555410.png",
+            "width": 720,
+            "height": 1697
+          }
+        ]
+      }
+    },
+    {
+      "saleId": 61698,
+      "artistId": 25,
+      "artistName": "TREASURE",
+      "artistShortName": "TREASURE",
+      "category": "Album",
+      "name": "[VIDEO CALL FANSIGN] 4th MINI ALBUM [NEW WAV] RAW VER. (DOYOUNG)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/a6d1b1a3a3d08562d2fce8df0ca9b32b.png",
+      "icons": [
+        "PRE_ORDER",
+        "BENEFIT"
+      ],
+      "emblems": [
+        "FAN_EVENT"
+      ],
+      "price": {
+        "originalPrice": 12600,
+        "salePrice": 12600,
+        "supplyPrice": 12600,
+        "supplySalePrice": 12600,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "displayOriginalPrice": "",
+        "displaySalePrice": "",
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-06-09T12:00:00+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "GOODS",
+          "maxOrderQuantity": 30,
+          "availableQuantity": 30
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "해당 상품은 Weverse Global 상품입니다.\t\t",
+            "해당 상품은 [VIDEO CALL FANSIGN] 이벤트 응모 전용 상품입니다.",
+            "본 상품은 이벤트 응모권이 포함된 상품입니다. 이벤트 응모 시 당첨자 발표 후에는 취소 및 환불이 불가하므로 신중한 구매를 부탁드립니다."
+          ]
+        },
+        "preOrder": {
+          "deliveryStartAt": "2026-06-09T12:00:00+09:00",
+          "deliveryEndAt": "2026-06-16T12:00:00+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 122183,
+              "saleStockIds": [
+                122183
+              ],
+              "saleOptionName": "DOYOUNG",
+              "isSoldOut": false,
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 12600,
+              "supplyOptionSalePrice": 12600
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 31,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "평균 배송 1-3일 소요",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 100,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/a6d1b1a3a3d08562d2fce8df0ca9b32b.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/281077ddceeaca98ad7390b07371c894.png",
+            "width": 720,
+            "height": 1565
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/ca177cc1fbf477b4079a68ba0ceb7033.png",
+            "width": 720,
+            "height": 1697
+          }
+        ]
+      }
+    },
+    {
+      "saleId": 61699,
+      "artistId": 25,
+      "artistName": "TREASURE",
+      "artistShortName": "TREASURE",
+      "category": "Album",
+      "name": "[VIDEO CALL FANSIGN] 4th MINI ALBUM [NEW WAV] RAW VER. (HARUTO)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/62b25fb4277302ab1b996c4dbaf64ad2.png",
+      "icons": [
+        "PRE_ORDER",
+        "BENEFIT"
+      ],
+      "emblems": [
+        "FAN_EVENT"
+      ],
+      "price": {
+        "originalPrice": 12600,
+        "salePrice": 12600,
+        "supplyPrice": 12600,
+        "supplySalePrice": 12600,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "displayOriginalPrice": "",
+        "displaySalePrice": "",
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-06-09T12:00:00+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "GOODS",
+          "maxOrderQuantity": 30,
+          "availableQuantity": 30
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "해당 상품은 Weverse Global 상품입니다.\t\t",
+            "해당 상품은 [VIDEO CALL FANSIGN] 이벤트 응모 전용 상품입니다.",
+            "본 상품은 이벤트 응모권이 포함된 상품입니다. 이벤트 응모 시 당첨자 발표 후에는 취소 및 환불이 불가하므로 신중한 구매를 부탁드립니다."
+          ]
+        },
+        "preOrder": {
+          "deliveryStartAt": "2026-06-09T12:00:00+09:00",
+          "deliveryEndAt": "2026-06-16T12:00:00+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 122184,
+              "saleStockIds": [
+                122184
+              ],
+              "saleOptionName": "HARUTO",
+              "isSoldOut": false,
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 12600,
+              "supplyOptionSalePrice": 12600
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 31,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "평균 배송 1-3일 소요",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 100,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/62b25fb4277302ab1b996c4dbaf64ad2.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c55e85aa009d01221dd3ab7471878784.png",
+            "width": 720,
+            "height": 1565
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/11af16c3599aff7c368c93eef9296905.png",
+            "width": 720,
+            "height": 1697
+          }
+        ]
+      }
+    },
+    {
+      "saleId": 61700,
+      "artistId": 25,
+      "artistName": "TREASURE",
+      "artistShortName": "TREASURE",
+      "category": "Album",
+      "name": "[VIDEO CALL FANSIGN] 4th MINI ALBUM [NEW WAV] RAW VER. (PARK JEONG WOO)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/9103eb9f7e897dc954b15525ee96e108.png",
+      "icons": [
+        "PRE_ORDER",
+        "BENEFIT"
+      ],
+      "emblems": [
+        "FAN_EVENT"
+      ],
+      "price": {
+        "originalPrice": 12600,
+        "salePrice": 12600,
+        "supplyPrice": 12600,
+        "supplySalePrice": 12600,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "displayOriginalPrice": "",
+        "displaySalePrice": "",
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-06-09T12:00:00+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "GOODS",
+          "maxOrderQuantity": 30,
+          "availableQuantity": 30
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "해당 상품은 Weverse Global 상품입니다.\t\t",
+            "해당 상품은 [VIDEO CALL FANSIGN] 이벤트 응모 전용 상품입니다.",
+            "본 상품은 이벤트 응모권이 포함된 상품입니다. 이벤트 응모 시 당첨자 발표 후에는 취소 및 환불이 불가하므로 신중한 구매를 부탁드립니다."
+          ]
+        },
+        "preOrder": {
+          "deliveryStartAt": "2026-06-09T12:00:00+09:00",
+          "deliveryEndAt": "2026-06-16T12:00:00+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 122185,
+              "saleStockIds": [
+                122185
+              ],
+              "saleOptionName": "PARK JEONG WOO",
+              "isSoldOut": false,
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 12600,
+              "supplyOptionSalePrice": 12600
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 31,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "deliveryDisplayName": "CJ 대한통운",
+            "deliveryTimeInfo": "평균 배송 1-3일 소요",
+            "shippingPolicy": {
+              "shippingUnit": "COST",
+              "minShippingCost": {
+                "section": 49999,
+                "cost": 3000
+              },
+              "freeShippingCost": {
+                "cost": 50000
+              }
+            },
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 100,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/9103eb9f7e897dc954b15525ee96e108.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/eec420e214c006e522cb2b89a5fad56b.png",
+            "width": 720,
+            "height": 1565
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c01cae083864f80bd4cae3e5e4a2eb57.png",
+            "width": 720,
+            "height": 1697
+          }
+        ]
+      }
+    },
+    {
+      "saleId": 61701,
+      "artistId": 25,
+      "artistName": "TREASURE",
+      "artistShortName": "TREASURE",
+      "category": "Album",
+      "name": "[VIDEO CALL FANSIGN] 4th MINI ALBUM [NEW WAV] RAW VER. (SO JUNG HWAN)",
+      "status": "SALE",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/a7b2bd19e30bedbe9ff78451b027251f.png",
+      "icons": [
+        "PRE_ORDER",
+        "BENEFIT"
+      ],
+      "emblems": [
+        "FAN_EVENT"
+      ],
+      "price": {
+        "originalPrice": 12600,
+        "salePrice": 12600,
+        "supplyPrice": 12600,
+        "supplySalePrice": 12600,
+        "discountPercent": 0,
+        "isDiscountDisplay": false,
+        "isTaxIncluded": false,
+        "includeJapanTaxInPrice": false,
+        "displayOriginalPrice": "",
+        "displaySalePrice": "",
+        "isTaxDeductible": false
+      },
+      "deliveryDate": "2026-06-09T12:00:00+09:00",
+      "goodsType": "DELIVERY",
+      "releaseCountryCode": "KR",
+      "detail": {
+        "goodsOrderLimit": {
+          "orderLimitType": "GOODS",
+          "maxOrderQuantity": 30,
+          "availableQuantity": 30
+        },
+        "orderLimitInfo": {
+          "descriptions": [
+            "해당 상품은 Weverse Global 상품입니다.\t\t",
+            "해당 상품은 [VIDEO CALL FANSIGN] 이벤트 응모 전용 상품입니다.",
+            "본 상품은 이벤트 응모권이 포함된 상품입니다. 이벤트 응모 시 당첨자 발표 후에는 취소 및 환불이 불가하므로 신중한 구매를 부탁드립니다."
+          ]
+        },
+        "preOrder": {
+          "deliveryStartAt": "2026-06-09T12:00:00+09:00",
+          "deliveryEndAt": "2026-06-16T12:00:00+09:00",
+          "enablePreOrder": true
+        },
+        "option": {
+          "optionSelectionType": "MULTIPLE",
+          "options": [
+            {
+              "saleStockId": 122186,
+              "saleStockIds": [
+                122186
+              ],
+              "saleOptionName": "SO JUNG HWAN",
+              "isSoldOut": false,
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 12600,
+              "supplyOptionSalePrice": 12600
+            }
+          ],
+          "hasOptionAddPrice": false,
+          "variants": []
+        },
+        "shipping": {
+          "shippingGroupId": 31,
+          "shippingCountry": {
+            "countryCode": "KR",
+            "isValidShippingCountry": true
+          }
+        },
+        "earnedCash": 100,
+        "thumbnailImageUrls": [
+          "https://cdn-contents.weverseshop.io/public/shop/a7b2bd19e30bedbe9ff78451b027251f.png"
+        ],
+        "detailImages": [
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/7e54db0678d191e2ebaaf35faa270f05.png",
+            "width": 720,
+            "height": 1565
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a10bc159b9683774c4a02d13c4681934.png",
+            "width": 720,
+            "height": 1697
+          }
+        ]
+      }
+    },
+    {
       "saleId": 61711,
       "artistId": 34,
       "artistName": "STAYC",
@@ -16368,7 +17416,7 @@
                 112031
               ],
               "saleOptionName": "KAI (NINI BEAR)",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -26053,8 +27101,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3163,
-                3162
+                3162,
+                3163
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -26072,8 +27120,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3164,
-                3165
+                3165,
+                3164
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -26129,8 +27177,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3171,
-                3170
+                3170,
+                3171
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -26205,8 +27253,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3178,
-                3179
+                3179,
+                3178
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -26243,8 +27291,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3183,
-                3182
+                3182,
+                3183
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -26357,8 +27405,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3195,
-                3194
+                3194,
+                3195
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -26376,8 +27424,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3197,
-                3196
+                3196,
+                3197
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -26395,8 +27443,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3199,
-                3198
+                3198,
+                3199
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -26452,8 +27500,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3204,
-                3205
+                3205,
+                3204
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -26547,8 +27595,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3215,
-                3214
+                3214,
+                3215
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -27284,7 +28332,7 @@
                 111018
               ],
               "saleOptionName": "EUNHYUK",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 130000,
@@ -47443,7 +48491,7 @@
                 121629
               ],
               "saleOptionName": "SHOTARO",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -47459,7 +48507,7 @@
                 121630
               ],
               "saleOptionName": "EUNSEOK",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -47475,7 +48523,7 @@
                 121631
               ],
               "saleOptionName": "SUNGCHAN",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -47491,7 +48539,7 @@
                 121632
               ],
               "saleOptionName": "WONBIN",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -47507,7 +48555,7 @@
                 121633
               ],
               "saleOptionName": "SOHEE",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -47523,7 +48571,7 @@
                 121634
               ],
               "saleOptionName": "ANTON",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -47717,7 +48765,7 @@
                 121636
               ],
               "saleOptionName": "SHOTARO",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -47733,7 +48781,7 @@
                 121637
               ],
               "saleOptionName": "EUNSEOK",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -47749,7 +48797,7 @@
                 121638
               ],
               "saleOptionName": "SUNGCHAN",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -47765,7 +48813,7 @@
                 121639
               ],
               "saleOptionName": "WONBIN",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -47781,7 +48829,7 @@
                 121640
               ],
               "saleOptionName": "SOHEE",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -47797,7 +48845,7 @@
                 121641
               ],
               "saleOptionName": "ANTON",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -48073,7 +49121,7 @@
                 121649
               ],
               "saleOptionName": "SHOTARO",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -48089,7 +49137,7 @@
                 121650
               ],
               "saleOptionName": "EUNSEOK",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -48105,7 +49153,7 @@
                 121651
               ],
               "saleOptionName": "SUNGCHAN",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -48121,7 +49169,7 @@
                 121652
               ],
               "saleOptionName": "WONBIN",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -48137,7 +49185,7 @@
                 121653
               ],
               "saleOptionName": "SOHEE",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -48153,7 +49201,7 @@
                 121654
               ],
               "saleOptionName": "ANTON",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -55425,8 +56473,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4555,
-                4554
+                4554,
+                4555
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -55444,8 +56492,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4556,
-                4557
+                4557,
+                4556
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -55482,8 +56530,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4560,
-                4561
+                4561,
+                4560
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -55577,8 +56625,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4571,
-                4570
+                4570,
+                4571
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -55596,8 +56644,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4573,
-                4572
+                4572,
+                4573
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -55907,8 +56955,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4529,
-                4528
+                4528,
+                4529
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -55945,8 +56993,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4532,
-                4533
+                4533,
+                4532
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -55983,8 +57031,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4536,
-                4537
+                4537,
+                4536
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -56021,8 +57069,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4541,
-                4540
+                4540,
+                4541
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -56059,8 +57107,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4545,
-                4544
+                4544,
+                4545
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -65017,466 +66065,6 @@
             "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/532c32989c11e68b451101816522d1f0.png",
             "width": 720,
             "height": 1440
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 61446,
-      "artistId": 255,
-      "artistName": "CORTIS",
-      "artistShortName": "CORTIS",
-      "category": "Album",
-      "name": "[YOUTUBE GIFT] The 2nd EP [GREENGREEN] (Set)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/5714d94d6b457bd24c5510a1ca7a9b40.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 59100,
-        "salePrice": 59100,
-        "supplyPrice": 59100,
-        "supplySalePrice": 59100,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "displayOriginalPrice": "",
-        "displaySalePrice": "",
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-06-30T00:00:04+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 4,
-          "availableQuantity": 4
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t",
-            "해당 상품은 [BRIDGE Ver., STREET Ver., STUDIO Ver.] 으로 구성된 세트 상품입니다."
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-06-30T00:00:04+09:00",
-          "deliveryEndAt": "2026-07-07T00:00:04+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 121663,
-              "saleStockIds": [
-                121663
-              ],
-              "saleOptionName": "Set",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 59100,
-              "supplyOptionSalePrice": 59100
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 550,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/5714d94d6b457bd24c5510a1ca7a9b40.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/28fc6e7a4158695461a8e7ecbf1fef1a.png",
-            "width": 720,
-            "height": 1869
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/bc574448b47b24f6b5c10602ed8ef481.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/f6fb85e88d9b1e49d63c2c552edd6b15.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/e03785f4275dbc0d5d4e8a129a640814.png",
-            "width": 720,
-            "height": 1440
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 61445,
-      "artistId": 255,
-      "artistName": "CORTIS",
-      "artistShortName": "CORTIS",
-      "category": "Album",
-      "name": "[YOUTUBE GIFT] The 2nd EP [GREENGREEN] (Random)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/dd2f652e3a7c84fe8e9aed516d851854.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 19700,
-        "salePrice": 19700,
-        "supplyPrice": 19700,
-        "supplySalePrice": 19700,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "displayOriginalPrice": "",
-        "displaySalePrice": "",
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-06-30T00:00:04+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 12,
-          "availableQuantity": 12
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t\t"
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-06-30T00:00:04+09:00",
-          "deliveryEndAt": "2026-07-07T00:00:04+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 121662,
-              "saleStockIds": [
-                121662
-              ],
-              "saleOptionName": "Random",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 19700,
-              "supplyOptionSalePrice": 19700
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 200,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/dd2f652e3a7c84fe8e9aed516d851854.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/bc5d2372f212fc5f24a219e7620f3304.png",
-            "width": 720,
-            "height": 1869
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/74be0d450d8d9d89d24c4dcb9a64b1c3.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c76d422dcfc6ba58639d7b32d2f6744c.png",
-            "width": 720,
-            "height": 1440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/84d1beabfd3d78391b01019e3524c51b.png",
-            "width": 720,
-            "height": 1440
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 61448,
-      "artistId": 255,
-      "artistName": "CORTIS",
-      "artistShortName": "CORTIS",
-      "category": "Album",
-      "name": "[YOUTUBE GIFT] The 2nd EP [GREENGREEN] (Weverse Albums ver.) (Set)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/e5b755da2608be55650daa0e160b0303.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 49600,
-        "salePrice": 49600,
-        "supplyPrice": 49600,
-        "supplySalePrice": 49600,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "displayOriginalPrice": "",
-        "displaySalePrice": "",
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-06-30T00:00:04+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 5,
-          "availableQuantity": 5
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t\t",
-            "해당 상품은 [Weverse Albums ver.] 4종으로 구성된 세트 상품입니다.\t"
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-06-30T00:00:04+09:00",
-          "deliveryEndAt": "2026-07-07T00:00:04+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 121665,
-              "saleStockIds": [
-                121665
-              ],
-              "saleOptionName": "Set",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 49600,
-              "supplyOptionSalePrice": 49600
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 450,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/e5b755da2608be55650daa0e160b0303.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/9cfcbcfb5987a46d7e463ba054cafd33.png",
-            "width": 720,
-            "height": 1869
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/806004b842ef2aa1a04ba844ecc48f88.png",
-            "width": 720,
-            "height": 1260
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/30c37925e613b084f35247881c5b2da5.png",
-            "width": 720,
-            "height": 1260
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/5131d0ebb9c3454166f2c0368e5cf0b8.png",
-            "width": 720,
-            "height": 1260
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/f7df5f80260a4065db62b71ec7c2aa99.png",
-            "width": 720,
-            "height": 1260
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 61447,
-      "artistId": 255,
-      "artistName": "CORTIS",
-      "artistShortName": "CORTIS",
-      "category": "Album",
-      "name": "[YOUTUBE GIFT] The 2nd EP [GREENGREEN] (Weverse Albums ver.) (Random)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/a9a9842ef9277aa368abe1d5b5451f7c.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 12400,
-        "salePrice": 12400,
-        "supplyPrice": 12400,
-        "supplySalePrice": 12400,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "displayOriginalPrice": "",
-        "displaySalePrice": "",
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-06-30T00:00:04+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 20,
-          "availableQuantity": 20
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t\t"
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-06-30T00:00:04+09:00",
-          "deliveryEndAt": "2026-07-07T00:00:04+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 121664,
-              "saleStockIds": [
-                121664
-              ],
-              "saleOptionName": "Random",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 12400,
-              "supplyOptionSalePrice": 12400
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 100,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/a9a9842ef9277aa368abe1d5b5451f7c.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/389c7436e6232d08761ba12cbeedd718.png",
-            "width": 720,
-            "height": 1869
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/abb9c7d8dfcf3e86e1d14725d5a3c01e.png",
-            "width": 720,
-            "height": 1260
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/3558a4d35ff7d68f0ec1f94db5227091.png",
-            "width": 720,
-            "height": 1260
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/9498c8d9c5aa3d164afada103fb98b29.png",
-            "width": 720,
-            "height": 1260
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/4f86f57580fd61e4339b9825020adbcb.png",
-            "width": 720,
-            "height": 1260
           }
         ]
       }
