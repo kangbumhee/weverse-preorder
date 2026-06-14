@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T00:20:46.433Z",
+  "updatedAt": "2026-06-14T00:08:16.540Z",
   "artists": [
     {
       "artistId": 2,
@@ -868,24 +868,24 @@
   ],
   "products": [
     {
-      "saleId": 62322,
+      "saleId": 62247,
       "artistId": 2,
       "artistName": "BTS",
       "artistShortName": "BTS",
-      "category": "Album",
-      "name": "[BUSAN Special] 'ARIRANG' (Set)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/9d7fdbaf42b585267055733ef9c7390c.png",
+      "category": "Merch",
+      "name": "Wind Jacket (SWIM)",
+      "status": "SOLD_OUT",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/be0c3508884f6d3795f8403166ad2198.png",
       "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
+        "ONLY",
+        "PRE_ORDER"
       ],
       "emblems": [],
       "price": {
-        "originalPrice": 43800,
-        "salePrice": 43800,
-        "supplyPrice": 43800,
-        "supplySalePrice": 43800,
+        "originalPrice": 129000,
+        "salePrice": 129000,
+        "supplyPrice": 129000,
+        "supplySalePrice": 129000,
         "discountPercent": 0,
         "isDiscountDisplay": false,
         "isTaxIncluded": false,
@@ -894,51 +894,101 @@
         "displaySalePrice": "",
         "isTaxDeductible": false
       },
-      "deliveryDate": "2026-06-23T00:00:00+09:00",
+      "deliveryDate": "2026-10-02T00:00:07+09:00",
       "goodsType": "DELIVERY",
       "releaseCountryCode": "KR",
       "detail": {
         "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 8,
-          "availableQuantity": 8
+          "orderLimitType": "OPTION"
         },
         "orderLimitInfo": {
           "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t\t",
-            "해당 상품은 [Rooted in Korea Ver.] ,[Rooted in Music Ver.] 으로 구성된 세트 상품입니다.\t"
+            "최대 구매수량은 옵션별 2개입니다."
           ]
         },
+        "saleStartAt": "2026-06-13T21:30:00+09:00",
         "preOrder": {
-          "deliveryStartAt": "2026-06-23T00:00:00+09:00",
-          "deliveryEndAt": "2026-06-30T00:00:00+09:00",
+          "deliveryStartAt": "2026-10-02T00:00:07+09:00",
+          "deliveryEndAt": "2026-10-09T00:00:07+09:00",
           "enablePreOrder": true
         },
         "option": {
           "optionSelectionType": "MULTIPLE",
           "options": [
             {
-              "saleStockId": 123616,
+              "saleStockId": 123281,
               "saleStockIds": [
-                123616
+                123281
               ],
-              "saleOptionName": "'ARIRANG' (Set)",
+              "saleOptionName": "S",
               "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
               "variantOptionLocation": [],
               "optionAddPrice": 0,
-              "optionSalePrice": 43800,
-              "supplyOptionSalePrice": 43800
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            },
+            {
+              "saleStockId": 123282,
+              "saleStockIds": [
+                123282
+              ],
+              "saleOptionName": "M",
+              "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            },
+            {
+              "saleStockId": 123283,
+              "saleStockIds": [
+                123283
+              ],
+              "saleOptionName": "L",
+              "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            },
+            {
+              "saleStockId": 123284,
+              "saleStockIds": [
+                123284
+              ],
+              "saleOptionName": "XL",
+              "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
             }
           ],
           "hasOptionAddPrice": false,
           "variants": []
         },
         "shipping": {
-          "shippingGroupId": 31,
+          "shippingGroupId": 178,
           "shippingCountry": {
             "countryCode": "KR",
             "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
+            "deliveryTimeInfo": "일반 상품의 경우, 영업일 기준 2-3일 이내 출고가 진행 됩니다.  출고 후, 배송 상황은 MY > 주문내역 > 주문내역 상세를 통해 조회 가능합니다.  예약 판매 상품의 경우 출시일로부터 출고 준비가 시작 됩니다.  도서 산간 지역의 경우, 추가 배송비가 발생되며, 배송기간이 증가 할 수 있습니다.  (권역별 3,000원 / 5,000원)",
             "shippingPolicy": {
               "shippingUnit": "COST",
               "minShippingCost": {
@@ -952,48 +1002,63 @@
             "isValidShippingCountry": true
           }
         },
-        "earnedCash": 400,
+        "earnedCash": 1200,
         "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/9d7fdbaf42b585267055733ef9c7390c.png"
+          "https://cdn-contents.weverseshop.io/public/shop/be0c3508884f6d3795f8403166ad2198.png"
         ],
         "detailImages": [
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c51d25f4f499a6f1b3bc083e27f4b254.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a39fe121602f0e177ac70f2f445703e6.png",
             "width": 720,
-            "height": 2387
+            "height": 5114
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a2a8405a2e7968ffa02b0c4e45ed0289.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/ea1381b0a333bce0ce016de0b75991b2.png",
             "width": 720,
-            "height": 4526
+            "height": 5202
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/550400f68206a3b0f08b956c1bb4f3ea.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/37daab3f4988dbc07f48de38d354cd8c.png",
             "width": 720,
-            "height": 4083
+            "height": 4440
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/b3c6bd8cbafb8a3a7a6a17d0ad72a7d9.png",
+            "width": 720,
+            "height": 2322
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a7df97368af51573c540c822a0e56246.png",
+            "width": 720,
+            "height": 3839
+          },
+          {
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a47856d4a3c8cf1ada540df9f787011f.png",
+            "width": 720,
+            "height": 1305
           }
         ]
       }
     },
     {
-      "saleId": 62321,
+      "saleId": 62248,
       "artistId": 2,
       "artistName": "BTS",
       "artistShortName": "BTS",
-      "category": "Album",
-      "name": "[BUSAN Special] 'ARIRANG' (Random)",
+      "category": "Merch",
+      "name": "Wind Jacket (DIVE)",
       "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/60e143d85e4482083ac6580c15b7356b.png",
+      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/d90ccebfb60b6e88f7826d7c6ab160af.png",
       "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
+        "ONLY",
+        "PRE_ORDER"
       ],
       "emblems": [],
       "price": {
-        "originalPrice": 21900,
-        "salePrice": 21900,
-        "supplyPrice": 21900,
-        "supplySalePrice": 21900,
+        "originalPrice": 129000,
+        "salePrice": 129000,
+        "supplyPrice": 129000,
+        "supplySalePrice": 129000,
         "discountPercent": 0,
         "isDiscountDisplay": false,
         "isTaxIncluded": false,
@@ -1002,46 +1067,97 @@
         "displaySalePrice": "",
         "isTaxDeductible": false
       },
-      "deliveryDate": "2026-06-23T00:00:00+09:00",
+      "deliveryDate": "2026-10-02T00:00:07+09:00",
       "goodsType": "DELIVERY",
       "releaseCountryCode": "KR",
       "detail": {
         "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 16,
-          "availableQuantity": 16
+          "orderLimitType": "OPTION"
         },
         "orderLimitInfo": {
           "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t\t"
+            "최대 구매수량은 옵션별 2개입니다."
           ]
         },
+        "saleStartAt": "2026-06-13T21:30:00+09:00",
         "preOrder": {
-          "deliveryStartAt": "2026-06-23T00:00:00+09:00",
-          "deliveryEndAt": "2026-06-30T00:00:00+09:00",
+          "deliveryStartAt": "2026-10-02T00:00:07+09:00",
+          "deliveryEndAt": "2026-10-09T00:00:07+09:00",
           "enablePreOrder": true
         },
         "option": {
           "optionSelectionType": "MULTIPLE",
           "options": [
             {
-              "saleStockId": 123615,
+              "saleStockId": 123285,
               "saleStockIds": [
-                123615
+                123285
               ],
-              "saleOptionName": "'ARIRANG' (Random)",
+              "saleOptionName": "S",
               "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
               "variantOptionLocation": [],
               "optionAddPrice": 0,
-              "optionSalePrice": 21900,
-              "supplyOptionSalePrice": 21900
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            },
+            {
+              "saleStockId": 123286,
+              "saleStockIds": [
+                123286
+              ],
+              "saleOptionName": "M",
+              "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            },
+            {
+              "saleStockId": 123287,
+              "saleStockIds": [
+                123287
+              ],
+              "saleOptionName": "L",
+              "isSoldOut": false,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
+            },
+            {
+              "saleStockId": 123288,
+              "saleStockIds": [
+                123288
+              ],
+              "saleOptionName": "XL",
+              "isSoldOut": true,
+              "optionOrderLimit": {
+                "orderLimitType": "OPTION",
+                "maxOrderQuantity": 2
+              },
+              "variantOptionLocation": [],
+              "optionAddPrice": 0,
+              "optionSalePrice": 129000,
+              "supplyOptionSalePrice": 129000
             }
           ],
           "hasOptionAddPrice": false,
           "variants": []
         },
         "shipping": {
-          "shippingGroupId": 31,
+          "shippingGroupId": 46,
           "shippingCountry": {
             "countryCode": "KR",
             "deliveryDisplayName": "CJ 대한통운",
@@ -1059,260 +1175,35 @@
             "isValidShippingCountry": true
           }
         },
-        "earnedCash": 200,
+        "earnedCash": 1200,
         "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/60e143d85e4482083ac6580c15b7356b.png"
+          "https://cdn-contents.weverseshop.io/public/shop/d90ccebfb60b6e88f7826d7c6ab160af.png"
         ],
         "detailImages": [
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/31bb688242519651c54b03b3a78bb4c0.png",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/53ae486f0c2e818e546e221cfd1773e7.png",
             "width": 720,
-            "height": 2387
+            "height": 3789
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/638563dcf64f8469aec9352c85c5c551.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/3deadc1cfdc9e520ab7e675b4033f424.png",
             "width": 720,
-            "height": 4526
+            "height": 5202
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c7c1df1d83d8fe0ec401b9ee689951ff.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/f55536da39a7c174b1ed753b6e83ed99.png",
             "width": 720,
-            "height": 4083
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 62324,
-      "artistId": 2,
-      "artistName": "BTS",
-      "artistShortName": "BTS",
-      "category": "Album",
-      "name": "[BUSAN Special] 'ARIRANG' (Deluxe Vinyl) (Set)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/e7ec4ec6bad6b80ddc5bec8ad568eee2.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 115800,
-        "salePrice": 115800,
-        "supplyPrice": 115800,
-        "supplySalePrice": 115800,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "displayOriginalPrice": "",
-        "displaySalePrice": "",
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-06-23T00:00:00+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 4,
-          "availableQuantity": 4
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t\t",
-            "해당 상품은 [ARIRANG' (Deluxe Vinyl) B&W Ver.] ,[ARIRANG' (Deluxe Vinyl) Color Ver.] 으로 구성된 세트 상품입니다.\t"
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-06-23T00:00:00+09:00",
-          "deliveryEndAt": "2026-06-30T00:00:00+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 123618,
-              "saleStockIds": [
-                123618
-              ],
-              "saleOptionName": "'ARIRANG' (Deluxe Vinyl) (Set)",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 115800,
-              "supplyOptionSalePrice": 115800
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 1050,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/e7ec4ec6bad6b80ddc5bec8ad568eee2.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/cf32449db6107a072fb8477057e3df78.png",
-            "width": 720,
-            "height": 2387
+            "height": 4543
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c958bda1e09b9ce43379d3cea9cc2f6b.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/e4f9eb0931063767dcd4dc637ff17f92.png",
             "width": 720,
-            "height": 3400
+            "height": 3839
           },
           {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/57a4f3cf1ade43bfd290ea2eac95d3b4.jpg",
+            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/6bfd72eaa090ed5deb3645f04f9e6449.png",
             "width": 720,
-            "height": 2336
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/4edbc8db10c7ac09d9bcd9b40cc33d51.jpg",
-            "width": 720,
-            "height": 3399
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/c072a8b2e55bbdce48123c5c532e6105.jpg",
-            "width": 720,
-            "height": 2337
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 62323,
-      "artistId": 2,
-      "artistName": "BTS",
-      "artistShortName": "BTS",
-      "category": "Album",
-      "name": "[BUSAN Special] 'ARIRANG' (Deluxe Vinyl) (Random)",
-      "status": "SALE",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/f91c71733a1a57e8b4118f6fef94c685.png",
-      "icons": [
-        "PRE_ORDER",
-        "BENEFIT"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 57900,
-        "salePrice": 57900,
-        "supplyPrice": 57900,
-        "supplySalePrice": 57900,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "displayOriginalPrice": "",
-        "displaySalePrice": "",
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-06-23T00:00:00+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "GOODS",
-          "maxOrderQuantity": 8,
-          "availableQuantity": 8
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "해당 상품은 Weverse Global 상품입니다.\t\t"
-          ]
-        },
-        "preOrder": {
-          "deliveryStartAt": "2026-06-23T00:00:00+09:00",
-          "deliveryEndAt": "2026-06-30T00:00:00+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 123617,
-              "saleStockIds": [
-                123617
-              ],
-              "saleOptionName": "'ARIRANG' (Deluxe Vinyl) (Random)",
-              "isSoldOut": false,
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 57900,
-              "supplyOptionSalePrice": 57900
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 31,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 550,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/f91c71733a1a57e8b4118f6fef94c685.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/261504d0196155e2d676ab92e7f19072.png",
-            "width": 720,
-            "height": 2387
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/b8634ac5fb8f543a5b560515e11b8507.jpg",
-            "width": 720,
-            "height": 3400
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/42e1253186d6ace9f5841bcb0cbe9b02.jpg",
-            "width": 720,
-            "height": 2336
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/9f83a1d823f23cfe23043c0bcd012c1b.jpg",
-            "width": 720,
-            "height": 3399
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/f36625ef92331fa63ca9af44cb838956.jpg",
-            "width": 720,
-            "height": 2337
+            "height": 1305
           }
         ]
       }
@@ -3387,347 +3278,6 @@
           },
           {
             "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/b6e26350525c2638d98ecc1adba796d2.png",
-            "width": 720,
-            "height": 1305
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 61652,
-      "artistId": 2,
-      "artistName": "BTS",
-      "artistShortName": "BTS",
-      "category": "Merch",
-      "name": "Wind Jacket (SWIM)",
-      "status": "SOLD_OUT",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/be0c3508884f6d3795f8403166ad2198.png",
-      "icons": [
-        "ONLY",
-        "PRE_ORDER"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 129000,
-        "salePrice": 129000,
-        "supplyPrice": 129000,
-        "supplySalePrice": 129000,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "displayOriginalPrice": "",
-        "displaySalePrice": "",
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-08-18T00:00:07+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "OPTION"
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "최대 구매수량은 옵션별 2개입니다."
-          ]
-        },
-        "saleStartAt": "2026-05-26T17:00:00+09:00",
-        "preOrder": {
-          "deliveryStartAt": "2026-08-18T00:00:07+09:00",
-          "deliveryEndAt": "2026-08-25T00:00:07+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 122117,
-              "saleStockIds": [
-                122117
-              ],
-              "saleOptionName": "S",
-              "isSoldOut": false,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
-            },
-            {
-              "saleStockId": 122118,
-              "saleStockIds": [
-                122118
-              ],
-              "saleOptionName": "M",
-              "isSoldOut": false,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
-            },
-            {
-              "saleStockId": 122119,
-              "saleStockIds": [
-                122119
-              ],
-              "saleOptionName": "L",
-              "isSoldOut": false,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
-            },
-            {
-              "saleStockId": 122120,
-              "saleStockIds": [
-                122120
-              ],
-              "saleOptionName": "XL",
-              "isSoldOut": false,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 178,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "일반 상품의 경우, 영업일 기준 2-3일 이내 출고가 진행 됩니다.  출고 후, 배송 상황은 MY > 주문내역 > 주문내역 상세를 통해 조회 가능합니다.  예약 판매 상품의 경우 출시일로부터 출고 준비가 시작 됩니다.  도서 산간 지역의 경우, 추가 배송비가 발생되며, 배송기간이 증가 할 수 있습니다.  (권역별 3,000원 / 5,000원)",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 1200,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/be0c3508884f6d3795f8403166ad2198.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a39fe121602f0e177ac70f2f445703e6.png",
-            "width": 720,
-            "height": 5114
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/ea1381b0a333bce0ce016de0b75991b2.png",
-            "width": 720,
-            "height": 5202
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/37daab3f4988dbc07f48de38d354cd8c.png",
-            "width": 720,
-            "height": 4440
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/b3c6bd8cbafb8a3a7a6a17d0ad72a7d9.png",
-            "width": 720,
-            "height": 2322
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a7df97368af51573c540c822a0e56246.png",
-            "width": 720,
-            "height": 3839
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/a47856d4a3c8cf1ada540df9f787011f.png",
-            "width": 720,
-            "height": 1305
-          }
-        ]
-      }
-    },
-    {
-      "saleId": 61653,
-      "artistId": 2,
-      "artistName": "BTS",
-      "artistShortName": "BTS",
-      "category": "Merch",
-      "name": "Wind Jacket (DIVE)",
-      "status": "SOLD_OUT",
-      "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/d90ccebfb60b6e88f7826d7c6ab160af.png",
-      "icons": [
-        "ONLY",
-        "PRE_ORDER"
-      ],
-      "emblems": [],
-      "price": {
-        "originalPrice": 129000,
-        "salePrice": 129000,
-        "supplyPrice": 129000,
-        "supplySalePrice": 129000,
-        "discountPercent": 0,
-        "isDiscountDisplay": false,
-        "isTaxIncluded": false,
-        "includeJapanTaxInPrice": false,
-        "displayOriginalPrice": "",
-        "displaySalePrice": "",
-        "isTaxDeductible": false
-      },
-      "deliveryDate": "2026-08-18T00:00:07+09:00",
-      "goodsType": "DELIVERY",
-      "releaseCountryCode": "KR",
-      "detail": {
-        "goodsOrderLimit": {
-          "orderLimitType": "OPTION"
-        },
-        "orderLimitInfo": {
-          "descriptions": [
-            "최대 구매수량은 옵션별 2개입니다."
-          ]
-        },
-        "saleStartAt": "2026-05-26T17:00:00+09:00",
-        "preOrder": {
-          "deliveryStartAt": "2026-08-18T00:00:07+09:00",
-          "deliveryEndAt": "2026-08-25T00:00:07+09:00",
-          "enablePreOrder": true
-        },
-        "option": {
-          "optionSelectionType": "MULTIPLE",
-          "options": [
-            {
-              "saleStockId": 122121,
-              "saleStockIds": [
-                122121
-              ],
-              "saleOptionName": "S",
-              "isSoldOut": false,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
-            },
-            {
-              "saleStockId": 122122,
-              "saleStockIds": [
-                122122
-              ],
-              "saleOptionName": "M",
-              "isSoldOut": false,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
-            },
-            {
-              "saleStockId": 122123,
-              "saleStockIds": [
-                122123
-              ],
-              "saleOptionName": "L",
-              "isSoldOut": false,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
-            },
-            {
-              "saleStockId": 122124,
-              "saleStockIds": [
-                122124
-              ],
-              "saleOptionName": "XL",
-              "isSoldOut": false,
-              "optionOrderLimit": {
-                "orderLimitType": "OPTION",
-                "maxOrderQuantity": 2
-              },
-              "variantOptionLocation": [],
-              "optionAddPrice": 0,
-              "optionSalePrice": 129000,
-              "supplyOptionSalePrice": 129000
-            }
-          ],
-          "hasOptionAddPrice": false,
-          "variants": []
-        },
-        "shipping": {
-          "shippingGroupId": 46,
-          "shippingCountry": {
-            "countryCode": "KR",
-            "deliveryDisplayName": "CJ 대한통운",
-            "deliveryTimeInfo": "평균 배송 1-3일 소요",
-            "shippingPolicy": {
-              "shippingUnit": "COST",
-              "minShippingCost": {
-                "section": 49999,
-                "cost": 3000
-              },
-              "freeShippingCost": {
-                "cost": 50000
-              }
-            },
-            "isValidShippingCountry": true
-          }
-        },
-        "earnedCash": 1200,
-        "thumbnailImageUrls": [
-          "https://cdn-contents.weverseshop.io/public/shop/d90ccebfb60b6e88f7826d7c6ab160af.png"
-        ],
-        "detailImages": [
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/53ae486f0c2e818e546e221cfd1773e7.png",
-            "width": 720,
-            "height": 3789
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/3deadc1cfdc9e520ab7e675b4033f424.png",
-            "width": 720,
-            "height": 5202
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/f55536da39a7c174b1ed753b6e83ed99.png",
-            "width": 720,
-            "height": 4543
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/e4f9eb0931063767dcd4dc637ff17f92.png",
-            "width": 720,
-            "height": 3839
-          },
-          {
-            "imageUrl": "https://cdn-contents.weverseshop.io/public/shop/6bfd72eaa090ed5deb3645f04f9e6449.png",
             "width": 720,
             "height": 1305
           }
@@ -7933,8 +7483,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3246,
-                3247
+                3247,
+                3246
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -7952,8 +7502,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3248,
-                3249
+                3249,
+                3248
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -7971,8 +7521,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3250,
-                3251
+                3251,
+                3250
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -7990,8 +7540,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3252,
-                3253
+                3253,
+                3252
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -8028,8 +7578,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3257,
-                3256
+                3256,
+                3257
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -8047,8 +7597,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3259,
-                3258
+                3258,
+                3259
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -8123,8 +7673,8 @@
                 "maxOrderQuantity": 3
               },
               "variantOptionLocation": [
-                3267,
-                3266
+                3266,
+                3267
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 85000,
@@ -25085,7 +24635,7 @@
                 122371
               ],
               "saleOptionName": "CASSETTE TAPE PHOTO SET",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 12000,
@@ -25181,7 +24731,7 @@
                 122372
               ],
               "saleOptionName": "PHOTO SET",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 10000,
@@ -25291,7 +24841,7 @@
                 122374
               ],
               "saleOptionName": "White ver.",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -25583,7 +25133,7 @@
                 122379
               ],
               "saleOptionName": "CUP SET",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 33000,
@@ -25680,7 +25230,7 @@
                 122380
               ],
               "saleOptionName": "MONO CANDLE SET",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 40000,
@@ -32330,8 +31880,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3166,
-                3167
+                3167,
+                3166
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32349,8 +31899,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3169,
-                3168
+                3168,
+                3169
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32368,8 +31918,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3171,
-                3170
+                3170,
+                3171
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32387,8 +31937,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3173,
-                3172
+                3172,
+                3173
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32425,8 +31975,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3177,
-                3176
+                3176,
+                3177
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32463,8 +32013,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3180,
-                3181
+                3181,
+                3180
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32482,8 +32032,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3182,
-                3183
+                3183,
+                3182
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32501,8 +32051,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3185,
-                3184
+                3184,
+                3185
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32539,8 +32089,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3188,
-                3189
+                3189,
+                3188
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32558,8 +32108,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3190,
-                3191
+                3191,
+                3190
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32577,8 +32127,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3193,
-                3192
+                3192,
+                3193
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32596,8 +32146,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3195,
-                3194
+                3194,
+                3195
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32615,8 +32165,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3197,
-                3196
+                3196,
+                3197
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32691,8 +32241,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3205,
-                3204
+                3204,
+                3205
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -32748,8 +32298,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3210,
-                3211
+                3211,
+                3210
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -40020,7 +39570,7 @@
                 121603
               ],
               "saleOptionName": "TAEMIN",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 2
@@ -64019,7 +63569,7 @@
                 114659
               ],
               "saleOptionName": "JAEHEE",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -64709,8 +64259,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4551,
-                4550
+                4550,
+                4551
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -64728,8 +64278,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4552,
-                4553
+                4553,
+                4552
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -64747,8 +64297,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4555,
-                4554
+                4554,
+                4555
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -64766,8 +64316,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4557,
-                4556
+                4556,
+                4557
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -64785,8 +64335,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4558,
-                4559
+                4559,
+                4558
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -64804,8 +64354,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4560,
-                4561
+                4561,
+                4560
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -64842,8 +64392,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4565,
-                4564
+                4564,
+                4565
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -64861,8 +64411,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4566,
-                4567
+                4567,
+                4566
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -64880,8 +64430,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4568,
-                4569
+                4569,
+                4568
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -64899,8 +64449,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4570,
-                4571
+                4571,
+                4570
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -65267,8 +64817,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4533,
-                4532
+                4532,
+                4533
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -65286,8 +64836,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4534,
-                4535
+                4535,
+                4534
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -65324,8 +64874,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4539,
-                4538
+                4538,
+                4539
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -65400,8 +64950,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4546,
-                4547
+                4547,
+                4546
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 92000,
@@ -66009,7 +65559,7 @@
                 114626
               ],
               "saleOptionName": "MULTI POUCH",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 48000,
