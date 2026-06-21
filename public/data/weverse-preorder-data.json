@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T00:09:27.183Z",
+  "updatedAt": "2026-06-21T00:08:18.176Z",
   "artists": [
     {
       "artistId": 2,
@@ -10908,7 +10908,7 @@
                 123772
               ],
               "saleOptionName": "S.COUPS",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 2
@@ -18284,7 +18284,7 @@
       "artistShortName": "&TEAM",
       "category": "Merch",
       "name": "[JO] KEYRING",
-      "status": "SALE",
+      "status": "SOLD_OUT",
       "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/2c8625b3423a4c17a8eed61d1065498b.png",
       "icons": [
         "PRE_ORDER"
@@ -18332,7 +18332,7 @@
                 121976
               ],
               "saleOptionName": "KEYRING",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "variantOptionLocation": [],
               "optionAddPrice": 0,
               "optionSalePrice": 33000,
@@ -20723,7 +20723,7 @@
                 112025
               ],
               "saleOptionName": "KAI (NINI BEAR)",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
@@ -29335,8 +29335,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3163,
-                3162
+                3162,
+                3163
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29354,8 +29354,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3165,
-                3164
+                3164,
+                3165
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29373,8 +29373,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3166,
-                3167
+                3167,
+                3166
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29411,8 +29411,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3170,
-                3171
+                3171,
+                3170
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29430,8 +29430,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3173,
-                3172
+                3172,
+                3173
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29487,8 +29487,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3178,
-                3179
+                3179,
+                3178
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29506,8 +29506,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3181,
-                3180
+                3180,
+                3181
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29525,8 +29525,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3182,
-                3183
+                3183,
+                3182
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29620,8 +29620,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3192,
-                3193
+                3193,
+                3192
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29639,8 +29639,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3194,
-                3195
+                3195,
+                3194
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29658,8 +29658,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3197,
-                3196
+                3196,
+                3197
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29690,14 +29690,14 @@
                 110960
               ],
               "saleOptionName": "SIZE 15 / HEECHUL",
-              "isSoldOut": false,
+              "isSoldOut": true,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3200,
-                3201
+                3201,
+                3200
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29734,8 +29734,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3204,
-                3205
+                3205,
+                3204
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29772,8 +29772,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3209,
-                3208
+                3208,
+                3209
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29810,8 +29810,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3212,
-                3213
+                3213,
+                3212
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -29829,8 +29829,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                3214,
-                3215
+                3215,
+                3214
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 49000,
@@ -54738,8 +54738,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4550,
-                4551
+                4551,
+                4550
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -54757,8 +54757,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4553,
-                4552
+                4552,
+                4553
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -54795,8 +54795,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4557,
-                4556
+                4556,
+                4557
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -54814,8 +54814,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4559,
-                4558
+                4558,
+                4559
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -54846,14 +54846,14 @@
                 114692
               ],
               "saleOptionName": "L SIZE / SION",
-              "isSoldOut": true,
+              "isSoldOut": false,
               "optionOrderLimit": {
                 "orderLimitType": "OPTION",
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4562,
-                4563
+                4563,
+                4562
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -54871,8 +54871,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4564,
-                4565
+                4565,
+                4564
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -54909,8 +54909,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4569,
-                4568
+                4568,
+                4569
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -54928,8 +54928,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4571,
-                4570
+                4570,
+                4571
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -54947,8 +54947,8 @@
                 "maxOrderQuantity": 5
               },
               "variantOptionLocation": [
-                4573,
-                4572
+                4572,
+                4573
               ],
               "optionAddPrice": 0,
               "optionSalePrice": 69000,
@@ -68384,7 +68384,7 @@
       "artistShortName": "BABYMONSTER",
       "category": "Merch",
       "name": "[SUGARHONEY] BABYMONSTER TRADING PHOTOCARD",
-      "status": "SALE",
+      "status": "SOLD_OUT",
       "thumbnailImageUrl": "https://cdn-contents.weverseshop.io/public/shop/f7f9b01b51978d4cd7c78a85de1578ce.png",
       "icons": [
         "PRE_ORDER",
